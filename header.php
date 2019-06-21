@@ -39,7 +39,7 @@
         <div class="header fullwidth-layout">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.php">
                             <img src="./assets/img/white.png" width="100" class="d-inline-block align-top" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse">
