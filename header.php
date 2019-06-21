@@ -13,9 +13,8 @@
     <link rel="stylesheet" href="assets/css/styling.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-    
     <title>HOME | My Consultant</title>
+    
 </head>
 <body>
     <section class="navigasi">
