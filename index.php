@@ -87,6 +87,41 @@
             </div>
         </section>
 
+        <!-- GALERI -->
+        <section class="fullwidth-layout">
+            <div class="galeri-all">
+                <div class="galeri">
+                    <img src="https://bit.ly/2PvlS8Z" alt="">
+                    <span class="galeri-judul">Lorem ipsum dolor</span>
+                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                </div>
+                <div class="galeri">
+                    <img src="https://bit.ly/2PXNumM" alt="">
+                    <span class="galeri-judul">Lorem ipsum dolor</span>
+                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                </div>
+                <div class="galeri">
+                    <img src="https://bit.ly/2KbUszm" alt="">
+                    <span class="galeri-judul">Lorem ipsum dolor</span>
+                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                </div>
+                <div class="galeri">
+                    <img src="https://bit.ly/2FnhYul" alt="">
+                    <span class="galeri-judul">Lorem ipsum dolor</span>
+                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                </div>
+                <div class="galeri">
+                    <img src="https://bit.ly/2FznWrU" alt="">
+                    <span class="galeri-judul">Lorem ipsum dolor</span>
+                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                </div>
+                <div class="galeri">
+                    <img src="https://bit.ly/2zd3HLf" alt="">
+                    <span class="galeri-judul">Lorem ipsum dolor</span>
+                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                </div>
+            </div>
+        </section>
     
 <?php include("footer.php") ?>
 
