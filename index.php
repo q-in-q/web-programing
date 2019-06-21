@@ -11,89 +11,49 @@
                 </nav>
             </div>
         </section>
-        <section class="team">
-            <div class="container">
-                <h1>OUR TEAMMMMMMM</h1>
-                <div class="bio">
-                    <p>PT MITRAVISI CONSULTANT</p>
-                    <p>Dengan jajaran orang <b>luar biasa</b></p>
+        <section class="grid-icon">
+	    <div class="container">
+	        <div class="section-title">
+                <h2>The Company. Our Values. Our Beliefs.</h2>
+	        </div>
+	        <div class="row fitur-detail section-box">
+              	<div class="col-md-4 ">
+               		<div class="row section-box-1">
+               			<div class="col-md-4 section-box-icon">
+			               		<i class="fas fa-search fa-3x circle-icon"></i>
+		               	</div>
+	               		<div class="col-md-8 section-box-content">
+	                   		<h3>SPECIFIC</h3>
+	                   		<p>Menerangkan dengan mudah dan cepat.</p>
+	                   	</div>
+	                </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4 profile text-center">
-                        <div class="img-box">
-                        <img src="assets/img/pic.png" class="img-responsive" >
-                            <ul>
-                                <a href="#"><li><i class="fa fa-facebook-f"></i></li></a>
-                                <a href="#"><li><i class="fa fa-twitter"></i></li></a>
-                                <a href="#"><li><i class="fa fa-instagram"></i></li></a>
-                            </ul>
-                        </div>
-                        <h2>Anang Wahyu Pradana</h2>
-                        <h3>CEO</h3>
-                        <p>Subscribe</p>
+                <div class="col-md-4">
+	               	<div class="row section-box-1">
+                		<div class="col-md-4 section-box-icon">
+			               		<i class="far fa-file-alt fa-3x circle-icon"></i>
+		               	</div>
+	               		<div class="col-md-8 section-box-content">
+	                   		<h3>MEASURABLE</h3>
+	                       		<p>Memberikan mamfaat yang nyata dan terukur.</p>
+	                    	</div>
+	                    </div>
                     </div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-3 profile text-center">
-                        <div class="img-box">
-                        <img src="assets/img/pic.png" class="img-responsive" >
-                            <ul>
-                                <a href="#"><li><i class="fa fa-facebook-f"></i></li></a>
-                                <a href="#"><li><i class="fa fa-twitter"></i></li></a>
-                                <a href="#"><li><i class="fa fa-instagram"></i></li></a>
-                            </ul>
-                        </div>
-                        <h2>Anang Wahyu Pradana</h2>
-                        <h3>CEO</h3>
-                        <p>Subscribe</p>
-                    </div>    
-                    <div class="col-md-3 profile text-center">
-                        <div class="img-box">
-                        <img src="assets/img/pic.png" class="img-responsive" >
-                            <ul>
-                                <a href="#"><li><i class="fa fa-facebook-f"></i></li></a>
-                                <a href="#"><li><i class="fa fa-twitter"></i></li></a>
-                                <a href="#"><li><i class="fa fa-instagram"></i></li></a>
-                            </ul>
-                        </div>
-                        <h2>Anang Wahyu Pradana</h2>
-                        <h3>CEO</h3>
-                        <p>Subscribe</p>
-                    </div>    
-                    <div class="col-md-3 profile text-center">
-                        <div class="img-box">
-                        <img src="assets/img/pic.png" class="img-responsive" >
-                            <ul>
-                                <a href="#"><li><i class="fa fa-facebook-f"></i></li></a>
-                                <a href="#"><li><i class="fa fa-twitter"></i></li></a>
-                                <a href="#"><li><i class="fa fa-instagram"></i></li></a>
-                            </ul>
-                        </div>
-                        <h2>Anang Wahyu Pradana</h2>
-                        <h3>CEO</h3>
-                        <p>Subscribe</p>
-                    </div> 
-                    <div class="col-md-3 profile text-center">
-                        <div class="img-box">
-                        <img src="assets/img/pic.png" class="img-responsive" >
-                            <ul>
-                                <a href="#"><li><i class="fa fa-facebook-f"></i></li></a>
-                                <a href="#"><li><i class="fa fa-twitter"></i></li></a>
-                                <a href="#"><li><i class="fa fa-instagram"></i></li></a>
-                            </ul>
-                        </div>
-                        <h2>Anang Wahyu Pradana</h2>
-                        <h3>CEO</h3>
-                        <p>Subscribe</p>
-                    </div> 
-                </div>
+                    <div class="col-md-4">
+	                	<div class="row section-box-1">
+                			<div class="col-md-4 section-box-icon">
+			                		<i class="fas fa-bullseye fa-3x circle-icon"></i>
+		                	</div>
+	                		<div class="col-md-8 section-box-content">
+	                    		<h3>ACURATE</h3>
+	                    		<p>Benar dalam semua rincian melalui metode yang transparan.</p>
+	                    	</div>
+	                    </div>
+                    </div>
+	            </div>
             </div>
-        </section>
-        <section class="positions">
-            <div class="positions-container">
-                <h3>Open Positions</h3>
-            </div>
-        </section>
+        </div>
+    </section>
     
 <?php include("footer.php") ?>
 
