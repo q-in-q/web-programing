@@ -47,7 +47,7 @@
                         </button>
                     
                         <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav mr-auto navigasi justify-content-end">  
+                        <ul class="navbar-nav mr-auto navigasi w-100 justify-content-end">  
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="index.php">
                                     Home
@@ -55,6 +55,7 @@
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="./component.html">Component</a>
                                 </div>
+                                
                             </li>
                             <li class="nav-link"><a href="our-team.php">Our Team</a></li>
                         </ul>
