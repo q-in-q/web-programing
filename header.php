@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/styling.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     
@@ -18,20 +19,32 @@
 </head>
 <body>
     <section class="navigasi">
-        <div class="container">
-            <h1>TEST</h1>
-        </div>
+        
+            <ul class="head-text nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Overview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Help</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
         <div class="">
-            <nav class="navbar navbar-expand-lg  navbar-dark bg-primary sticky-top">
+            <nav class="navbar navbar-expand-lg   navbar-dark bg-primary sticky-top" data-toggle="sticky-onscroll">
                 <div class="container">
                         <a class="navbar-brand" href="index.php">
                             <img src="./assets/img/white.png" width="100" class="d-inline-block align-top" alt="">
                         </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     
-                        <div class="collapse navbar-collapse">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto navigasi w-100 justify-content-end">  
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="">
@@ -57,7 +70,7 @@
         <div id="carousel-example-2" class="carousel slide carousel-fade">
             <!--Indicators-->
             <ol class="carousel-indicators">
-                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="0"></li>
                 <li data-target="#carousel-example-2" data-slide-to="1"></li>
                 <li data-target="#carousel-example-2" data-slide-to="2"></li>
             </ol>
