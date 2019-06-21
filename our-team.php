@@ -1,18 +1,5 @@
-<?php include("header-child.php") ?>
+<?php include("header.php") ?>
 
-
-        <!-- FITUR -->
-        <section class="navbar-menu">
-            <div class="navbar-container">
-                <nav>
-                    <ul>
-                        <a href="company.php"><li>Company</li></a>
-                        <a href="index.php"><li class="tab-click">Our Team</li></a>
-                        <a href="#"><li>Download</li></a>
-                    </ul>
-                </nav>
-            </div>
-<!-- FITUR -->
 <section class="navbar-menu">
             <div class="navbar-container">
                 <nav>
