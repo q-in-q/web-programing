@@ -35,7 +35,7 @@
                 </li>
             </ul>
         <div class="">
-            <nav class="navbar navbar-expand-lg   navbar-dark bg-primary sticky-top" data-toggle="sticky-onscroll">
+            <nav id="scrollColour" class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top" data-toggle="sticky-onscroll">
                 <div class="container">
                         <a class="navbar-brand" href="index.php">
                             <img src="./assets/img/white.png" width="100" class="d-inline-block align-top" alt="">
