@@ -1,6 +1,6 @@
 <?php include("header.php") ?>
-<!-- FITUR -->
-<section class="navbar-menu">
+        <!-- FITUR -->
+        <section class="navbar-menu">
             <div class="navbar-container">
                 <nav>
                     <ul>
@@ -52,8 +52,41 @@
                     </div>
 	            </div>
             </div>
+        </section>
+        <!-- SELAYANG PANDANG -->
+    <section class="selayang-pandang">
+        <div class="fullwidth-layout">
+            <div class="container">
+                <div class="row section-title selayang-content">
+                    <div class="col-md-4 selayang-gambar">
+                        <img src="./assets/img/Logo Amikom Baru.png" alt="amikom">
+                    </div>
+                    <div class="col-md-8 main-selayang-content section-title">
+                        <h2>SELAYANG PANDANG</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore enim et quisquam quibusdam dolorum omnis nesciunt alias cumque, architecto amet illo debitis, ipsam tempore repellat ut, aspernatur pariatur iste.
+                        </p>
+                        <button class="btn-grad btn-grad-1">See More</button>
+                    </div>
+                </div>
+            </div>
+             <div class="container">
+                <div class="row promosi-1 section-title">
+                    <div class="col-md-4">
+                        <h2>Are You Ready?</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore enim et quisquam quibusdam dolorum omnis nesciunt alias cumque, architecto amet illo debitis, ipsam tempore repellat ut, aspernatur pariatur iste.
+                        </p>
+                        <button class="btn-grad btn-grad-2">Join Us!</button>
+                    </div>
+                    <div class="col-md-8">
+                            <img src="./assets/img/image-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
     
 <?php include("footer.php") ?>
 
