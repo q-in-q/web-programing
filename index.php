@@ -13,7 +13,7 @@
         </section>
         <section class="team">
             <div class="container">
-                <h1>OUR TEAM</h1>
+                <h1>OUR TEAMMMMMMM</h1>
                 <div class="bio">
                     <p>PT MITRAVISI CONSULTANT</p>
                     <p>Dengan jajaran orang <b>luar biasa</b></p>
