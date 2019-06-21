@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="assets/css/styling.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+    
     <title>HOME | My Consultant</title>
 </head>
 <body>
     <section class="navigasi">
-        <div class="nav justify-content-center">
+        
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Overview</a>
@@ -32,14 +34,13 @@
                   <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
-        </div>
         <div class="fullwidth-layout  navbar-dark bg-primary">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
                         <a class="navbar-brand" href="index.php">
                             <img src="./assets/img/white.png" width="100" class="d-inline-block align-top" alt="">
                         </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     
