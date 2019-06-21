@@ -36,7 +36,7 @@
                 </li>
             </ul>
         </div>
-        <div class="fullwidth-layout">
+        <div class="fullwidth-layout  navbar-dark bg-primary">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
                         <a class="navbar-brand" href="index.php">
