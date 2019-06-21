@@ -20,23 +20,10 @@
 <body>
     <section class="navigasi">
         
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Overview</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Help</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contacts</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-        <div class="fullwidth-layout  navbar-dark bg-primary">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
+           <h3>TEST</h3>
+        <div class="">
+            <nav class="navbar navbar-expand-lg  navbar-dark bg-primary sticky-top">
+                <div class="container">
                         <a class="navbar-brand" href="index.php">
                             <img src="./assets/img/white.png" width="100" class="d-inline-block align-top" alt="">
                         </a>
