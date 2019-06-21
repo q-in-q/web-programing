@@ -1,4 +1,8 @@
-<?php include("header.php") ?>
+<?php 
+include("header.php");
+include("slider.php");
+
+?>
         </section>
         <section class="grid-icon">
             <div class="container">
