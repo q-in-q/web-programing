@@ -1,3 +1,4 @@
+// Customer Testimonial
 $(function() {
     $("#customers-testimonial").owlCarousel({
         items : 1,
@@ -7,6 +8,7 @@ $(function() {
         autoPlayHoverPause : true
     });
 });
+
 // Sticky navbar
 $(document).ready(function () {
     var stickyToggle = function (sticky, stickyWrapper, scrollElement) {
@@ -35,3 +37,15 @@ $(document).ready(function () {
         stickyToggle(sticky, stickyWrapper, $(window));
     });
 });
+
+// Navbar Colour Scroll
+$(document).ready(function(){
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if(scroll>20){
+            $("#scrollColour").css("background","#fff");
+        } else {
+            $("#scrollColour").css("background","transparent");
+        }
+    })
+})
