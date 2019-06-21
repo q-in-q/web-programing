@@ -56,6 +56,7 @@
                                     <a class="dropdown-item" href="./component.html">Component</a>
                                 </div>
                             </li>
+                            <li class="nav-link"><a href="our-team.php">Our Team</a></li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
