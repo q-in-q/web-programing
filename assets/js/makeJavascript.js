@@ -38,14 +38,3 @@ $(document).ready(function () {
     });
 });
 
-// Navbar Colour Scroll
-$(document).ready(function(){
-    $(window).scroll(function(){
-        var scroll = $(window).scrollTop();
-        if(scroll>20){
-            $("#scrollColour").css("background","#fff");
-        } else {
-            $("#scrollColour").css("background","transparent");
-        }
-    })
-})
