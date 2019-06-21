@@ -300,6 +300,14 @@ section.curve-main {
     background-color: #1a4df3;
 }
 
+.jumbotron {
+    background: url(http://idcloudhost.com/wp-content/uploads/2016/05/pattern.jpg) repeat 50% 50%;
+    background-size: cover; 
+    height: 675px;
+    align-items: center;
+    display:flex;
+}
+
 .our-team-section {
     position: relative;
     padding-top: 40px;
