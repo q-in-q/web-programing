@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/styling.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     
@@ -19,8 +18,9 @@
 </head>
 <body>
     <section class="navigasi">
-        
-           <h3>TEST</h3>
+        <div class="container">
+            <h1>TEST</h1>
+        </div>
         <div class="">
             <nav class="navbar navbar-expand-lg  navbar-dark bg-primary sticky-top">
                 <div class="container">
