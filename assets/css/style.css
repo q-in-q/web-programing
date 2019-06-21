@@ -300,20 +300,43 @@ section.curve-main {
     background-color: #1a4df3;
 }
 
-.jumbotron {
+.jumbotron-child {
     background: url(http://idcloudhost.com/wp-content/uploads/2016/05/pattern.jpg) repeat 50% 50%;
     background-size: contain, cover; 
-    height: 450px;
+    height: 500px;
     align-items: center;
     display:flex;
 }
 
 .jumbotron h1 {
-    color: #fff;
+    text-transform: uppercase;
 }
 
 .jumbotron h1:after {
-    content: "";
+    content: '';
+    background: #ffffff;
+    display: block;
+    height: 3px;
+    width: 90px;
+    margin: 20px auto;
+
+}
+
+.jumbotron h4 {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.jumbotron p {
+}
+
+.jumbotron h1,.jumbotron p,.jumbotron h2,.jumbotron h3,.jumbotron h4 {
+    color: #fff;
+}
+
+.jumbotron.jumbotron-fluid {
+    margin: 0;
+    padding: 0;
 }
 
 .our-team-section {
@@ -701,6 +724,10 @@ section.curve-main {
 .tab-click {
     border-bottom: 3px solid #3F9AFF;
     color: #3F9AFF;
+}
+
+ul.head-text.nav.justify-content-center {
+    padding: 20px;
 }
 
 /* ============================= OUR TEAM =============================== */
