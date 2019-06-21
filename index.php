@@ -122,6 +122,72 @@
                 </div>
             </div>
         </section>
+            <!-- OUR TESTIMONIAL -->
+    <section class="fullwidth-layout">
+        <section class="curve-main">
+        <div class="testimonials-cover section-title">
+            <h2>What Our Customer Say</h2>
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="customers-testimonial" class="text-center owl-carousel owl-theme">
+                                <div class="testimonial">
+                                    <img src="./assets/img/ed1__IMG_5369_fix1.png" class="img-responsive img-circle" alt="">
+                                    <blockquote>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur beatae pariatur quas unde dolores tempore deleniti id, laudantium fuga fugiat maxime sed enim quia reiciendis molestias! Aperiam praesentium eos commodi.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p>
+                                            <strong>Anang Wahyu Pradana</strong>
+                                            <span>CEP & Founder Cicil.co.id</span>
+                                        </p>
+                                    </div>
+                                </div>
+    
+                                <div class="testimonial">
+                                    <img src="./assets/img/ed1__IMG_5369_fix1.png" class="img-responsive img-circle" alt="">
+                                    <blockquote>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur beatae pariatur quas unde dolores tempore deleniti id, laudantium fuga fugiat maxime sed enim quia reiciendis molestias! Aperiam praesentium eos commodi.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p>
+                                            <strong>Anang Wahyu Pradana</strong>
+                                            <span>CEP & Founder Cicil.co.id</span>
+                                        </p>
+                                    </div>
+                                </div>
+    
+                                <div class="testimonial">
+                                    <img src="./assets/img/ed1__IMG_5369_fix1.png" class="img-responsive img-circle" alt="">
+                                    <blockquote>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur beatae pariatur quas unde dolores tempore deleniti id, laudantium fuga fugiat maxime sed enim quia reiciendis molestias! Aperiam praesentium eos commodi.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p>
+                                            <strong>Anang Wahyu Pradana</strong>
+                                            <span>CEP & Founder Cicil.co.id</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="curve">
+                        <svg id="curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 312"><defs><style>.cls-1{fill:#0d0db7;}</style></defs><title>Untitled-1</title><path class="cls-1" d="M.5,63s143-47.5,376-47.5,402,96,630,96,394-89,394-89v305H.5Z" transform="translate(-0.5 -15.5)"/></svg>
+                <section class="curve-1">
+
+                </section>
+            </section>
+        </div>
+    </section>
+    </section>
     
 <?php include("footer.php") ?>
 
