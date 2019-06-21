@@ -113,7 +113,7 @@ section.curve-main {
 
 .fitur-detail h3 p {
     padding: 0 10px;
-}
+} 
 
 .fitur-detail h3 {
     font-style: italic;
@@ -293,6 +293,7 @@ section.curve-main {
     transition-duration: .3s;
     transform: translate(-50%, -50%) 
 }
+
 
 .header {
     width: 100%;
@@ -495,9 +496,6 @@ section.curve-main {
     margin-right: auto;
 }
 
-.social-media-footer {
-    
-}
 
 .team-main-content {
     margin: 0 auto;
@@ -564,6 +562,15 @@ section.curve-main {
 .title {
     min-height: 60px;
     text-transform: capitalize;
+}
+
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
 
