@@ -57,7 +57,7 @@
                                 </div>
                                 
                             </li>
-                            <li class="nav-link"><a href="our-team.php">Our Team</a></li>
+                            <li class="nav-item"><a class="nav-link"  href="our-team.php">Our Team</a></li>
                         </ul>
                         
                     </div>
