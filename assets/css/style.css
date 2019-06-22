@@ -728,7 +728,9 @@ button.btn.btn-primary:hover {
 }
 
 /* =========================ALVIN========================*/
-
+a {
+    color: white;
+}
 /* Main Navigation */
 .navbar-container nav {
     background: #ffffff;

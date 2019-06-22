@@ -63,7 +63,6 @@
                 var scroll = $(window).scrollTop();
                 if(scroll > 50){
                     $("#nav").css("background-color","#00000083");
-                }
                 else {
                     $("#nav").css("background","transparent");
                 }
