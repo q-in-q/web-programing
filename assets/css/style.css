@@ -674,6 +674,9 @@ button.btn.btn-primary:hover {
 
 
 @media only screen and (max-width: 995px){
+    #curve path {
+        
+    }
     .circle-icon {
         width: 70px;
         height: 70px;
