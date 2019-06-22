@@ -69,6 +69,11 @@ button.btn.btn-primary {
     margin: 3px 0;
 }
 
+button.btn.btn-primary a {
+    color: #fff;
+    text-decoration: none;
+}
+
 button.btn.btn-primary:hover {
     background: #0096e7;
 }
@@ -311,7 +316,6 @@ button.btn.btn-primary:hover {
 }
 
 .jumbotron-child-2, .jumbotron-child-1 {
-    height: 500px;
     align-items: center;
     display:flex;
 }
@@ -319,12 +323,19 @@ button.btn.btn-primary:hover {
 .jumbotron-child-1 {
     background: url(http://idcloudhost.com/wp-content/uploads/2019/06/Banner-Homepage-IDcloudhost-2019.jpg) no-repeat 50% 50%;
     background-size: cover;
+    height: 550px;
+}
+
+.jumbotron-child-1 h4 {
+    font-weight: lighter;
+    padding: 10px 0;
 }
 
 .jumbotron-child-2 {
     background: url(http://idcloudhost.com/wp-content/uploads/2016/05/pattern.jpg) repeat 50% 50%;
     background-size: contain, cover; 
     text-transform: uppercase;
+    height: 500px;
 }
 
 .jumbotron-content-main {
