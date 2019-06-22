@@ -2,8 +2,8 @@
   <div class="jumbotron-child-1">
       <div class="container jumbotron-content-main">
             <h1>Sambut Kemenangan #Bersam4th IDCloudHost</h1>
-            <p>Nikmati Pelayanan Terbaik, Ciptakan Suksesmu disini!</p>
-            <button class="btn btn-primary">PROMO DISKON 50%</button>
+            <h4>Nikmati Pelayanan Terbaik, Ciptakan Suksesmu disini!</h4>
+            <button class="btn btn-primary"><a href="#">PROMO DISKON 50%</a></button>
       </div>
   </div>
 </div>
