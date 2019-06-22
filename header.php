@@ -56,6 +56,7 @@
                             </li>
                             <li class="nav-item"><a class="nav-link"  href="our-team.php">Our Team</a></li>
                         </ul>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
                     </div>
                 </nav>
             </div>

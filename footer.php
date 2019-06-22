@@ -62,7 +62,7 @@
             $(window).scroll(function(){
                 var scroll = $(window).scrollTop();
                 if(scroll>50){
-                    $("#nav").css("background-color","#f6f6f6");
+                    $("#nav").css("background-color","#0f1c2f");
                 }
                 else {
                     $("#nav").css("background","transparent");
