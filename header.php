@@ -18,7 +18,7 @@
 </head>
 <body>
     <section class="navigasi">
-        
+            <!--
             <ul class="head-text nav justify-content-center">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Overview</a>
@@ -33,8 +33,9 @@
                   <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
+            -->
         <div class="">
-            <nav id="scrollColour" class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top" data-toggle="sticky-onscroll">
+            <nav id="nav" class="navbar navbar-expand-lg navbar-light" data-toggle="sticky-onscroll">
                 <div class="container">
                         <a class="navbar-brand" href="index.php">
                             <img src="./assets/img/white.png" width="100" class="d-inline-block align-top" alt="">

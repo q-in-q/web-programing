@@ -54,5 +54,22 @@
     <script type="text/javascript" src="assets/js/popper.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                var scroll = $(window).scrollTop();
+                if(scroll>50){
+                    $("#nav").css("background-color","#f6f6f6");
+                }
+                else {
+                    $("#nav").css("background","transparent");
+                }
+            })
+        })
+    </script>
+
 </body>
 </html>
