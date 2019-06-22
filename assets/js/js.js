@@ -47,9 +47,8 @@ $(document).ready(function(){
             $("#nav").css("background-color" , "#06061fa1");
             $("#nav").css("transition" , ".3s");
         }
-
         else{
             $("#nav").css("background" , "transparent");  	
         }
     })
-    })
+})
