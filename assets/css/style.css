@@ -315,7 +315,7 @@ button.btn.btn-primary:hover {
     background-color: #1a4df3;
 }
 
-.jumbotron-child-2, .jumbotron-child-1 {
+.jumbotron-child-2, .jumbotron-child-1, .jumbotron-child-pro {
     align-items: center;
     display:flex;
 }
@@ -357,7 +357,12 @@ button.btn.btn-primary:hover {
     height: 3px;
     width: 90px;
     margin: 20px auto;
+}
 
+.jumbotron-child-pro {
+    background: url(../img/jumbotron-vip.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 550px;
 }
 
 .jumbotron h4 {
