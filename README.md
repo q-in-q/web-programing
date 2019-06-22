@@ -2,3 +2,4 @@
 
 1. UPDATE NAVBAR STICKY TRANSPARENT
 2. UPDATE A(link) COlOR TO WHITE
+3. navbar selesai

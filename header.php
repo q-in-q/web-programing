@@ -34,7 +34,7 @@
                 </li>
             </ul>
             -->
-        <div class="">
+
             <nav id="nav" class="navbar navbar-expand-lg navbar-light fixed-top" >
                 <div class="container">
                         <a class="navbar-brand" href="index.php">
@@ -59,8 +59,5 @@
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
                     </div>
                 </nav>
-            </div>
-        </div>    
-    </section>
-
+               
     </section>
