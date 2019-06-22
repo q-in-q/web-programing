@@ -58,3 +58,4 @@
             <!--/.Controls-->
         </div>
         <!--/.Carousel Wrapper-->
+    </section>
