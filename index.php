@@ -170,13 +170,8 @@ include("jumbotron-main.php");
                         </div>
                     </div>
                 </div>
-                <section class="curve">
-                        <svg id="curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 312"><defs><style>.cls-1{fill:#0d0db7;}</style></defs><title>Untitled-1</title><path class="cls-1" d="M.5,63s143-47.5,376-47.5,402,96,630,96,394-89,394-89v305H.5Z" transform="translate(-0.5 -15.5)"/></svg>
-                <section class="curve-1">
-
-                </section>
-            </section>
-        </div>
+            </div>
+        </section>
     </section>
     
 <?php include("footer.php") ?>
