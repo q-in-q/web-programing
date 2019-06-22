@@ -62,11 +62,16 @@ section.curve-main {
     box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
 }
 
-button.btn.btn-primary {
+button.btn.btn-primary, button.btn.btn-primary.btn-login {
     padding: 5px 20px;
     background-color: #00a6ff;
     border-color: #00a6ff;
     margin: 3px 0;
+}
+
+button.btn.btn-primary.btn-login {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 button.btn.btn-primary a {

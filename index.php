@@ -113,7 +113,7 @@ include("jumbotron-main.php");
                 </div>
             </div>
         </section>
-            <!-- OUR TESTIMONIAL -->
+    <!-- OUR TESTIMONIAL -->
     <section class="fullwidth-layout">
         <section class="curve-main">
         <div class="testimonials-cover section-title">
@@ -177,7 +177,6 @@ include("jumbotron-main.php");
                 </section>
             </section>
         </div>
-    </section>
     </section>
     
 <?php include("footer.php") ?>
