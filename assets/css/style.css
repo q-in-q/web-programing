@@ -42,8 +42,7 @@ section.curve-main {
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-   }
-
+}
   
 .btn-grad:hover {
     background-position: 100% 0;
@@ -61,6 +60,17 @@ section.curve-main {
 .btn-grad-2 {
     background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
     box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+button.btn.btn-primary {
+    padding: 5px 20px;
+    background-color: #00a6ff;
+    border-color: #00a6ff;
+    margin: 3px 0;
+}
+
+button.btn.btn-primary:hover {
+    background: #0096e7;
 }
 
 .carousel-item {
