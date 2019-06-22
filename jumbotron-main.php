@@ -2,8 +2,8 @@
   <div class="jumbotron-child-1">
       <div class="container jumbotron-content-main">
             <h1>Sambut Kemenangan #Bersam4th IDCloudHost</h1>
-            <h4>Nikmati Pelayanan Terbaik, Ciptakan Suksesmu disini!</h4>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p>Nikmati Pelayanan Terbaik, Ciptakan Suksesmu disini!</p>
+            <button class="btn btn-primary">PROMO DISKON 50%</button>
       </div>
   </div>
 </div>
