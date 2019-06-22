@@ -24,7 +24,7 @@
                   <a class="nav-link active" href="#">Overview</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Help</a>
+                  <a class="nav-link" href="get-pro.php">Get PRO</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contacts</a>
