@@ -35,7 +35,7 @@
             </ul>
             -->
         <div class="">
-            <nav id="nav" class="navbar navbar-expand-lg navbar-light" data-toggle="sticky-onscroll">
+            <nav id="nav" class="navbar navbar-expand-lg fixed-top" >
                 <div class="container">
                         <a class="navbar-brand" href="index.php">
                             <img src="./assets/img/white.png" width="100" class="d-inline-block align-top" alt="">
@@ -53,11 +53,9 @@
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="./component.html">Component</a>
                                 </div>
-                                
                             </li>
                             <li class="nav-item"><a class="nav-link"  href="our-team.php">Our Team</a></li>
                         </ul>
-                        
                     </div>
                 </nav>
             </div>
