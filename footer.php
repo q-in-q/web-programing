@@ -52,5 +52,22 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script type="text/javascript" src="assets/js/popper.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script>
+        function initMap() {
+        var location = {lat: -7.759827,lng: 110.408346};
+        var map = new google.maps.Map(document.getElementById("googleMap"), {
+            zoom: 12,
+            center: location,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        });
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
+
+    // event jendela di-load  
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </body>
 </html>
