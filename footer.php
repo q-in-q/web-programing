@@ -69,5 +69,7 @@
     // event jendela di-load  
     google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2GA8PB8r4KQzFKAlA8Ps53igW6IvN4Ks&callback=initMap"
+    type="text/javascript"></script>
 </body>
 </html>

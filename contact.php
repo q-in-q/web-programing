@@ -3,12 +3,15 @@
     include("jumbotron.php");
 ?>
 
-<section class="form-main footer-formfooter-form padding-top-xl padding-bottom-xl" aria-label="Contact Form">
+<section class="form-main footer-form" aria-label="Contact Form">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-lg-offset-2 col-md-10 col-md-offset-1">
-                        <h2>HUBUNGI KAMI</h2>
-                        <p>Jika ada pertanyaan dsilahkan contact</p>
+                    <div class="col">
+                        <div class="head-contact"> 
+                            <h2>HUBUNGI KAMI</h2>
+                            <p>Jika ada pertanyaan dsilahkan contact</p>
+                        </div>
+                        
                         
                         <form name="contentForm" enctype="multipart/form-data" method="" action="" role="form" data-toggle="validator" novalidate="true">
                         <div class="form schedule-assessment">
@@ -44,7 +47,7 @@
 
 
                     </div>
-                    <div class="col-lg-6 maps" id="googleMap">
+                    <div class="col" id="googleMap">
                     </div>
                 </div>
             </div>

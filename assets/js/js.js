@@ -54,5 +54,16 @@ $(document).ready(function(){
 })
 
 /* ===================== GOOGLE MAPS API ======================= */
-
+function initMap() {
+    var location = {lat: -7.759827,lng: 110.408346};
+    var map = new google.maps.Map(document.getElementById("googleMap"), {
+        zoom: 12,
+        center: location,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+    });
+    var marker = new google.maps.Marker({
+        position: location,
+        map: map
+    });
+}
 

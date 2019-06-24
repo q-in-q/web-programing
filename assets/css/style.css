@@ -925,10 +925,10 @@ h1:after {
     
     background-color: #F5F9FF;
 }
-h2 {
+.head-contact h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h2:after {
+.head-contact h2:after {
     content: '';
     background: #333;
     display: block;
