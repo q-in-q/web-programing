@@ -93,8 +93,80 @@ include("jumbotron.php");
             </div>
         </section>
         <section class="positions">
-            <div class="positions-container">
-                <h3>Open Positions</h3>
+            <div class="main-section text-center">
+                <h5>OPEN POSITIONS</h5>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                                <h4>IT Consultant</h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                                <p>Jakarta | Jogja
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                                <a href="#" class="btn btn-info">APPLY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                                <h4>Penetration Testing</h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                                <p>Jakarta | Jogja
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                                <a href="#" class="btn btn-info">APPLY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                                <h4>Sistem Analis</h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                                <p>Jakarta | Jogja
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                                <a href="#" class="btn btn-info">APPLY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                                <h4>SEO Analis</h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                                <p>Jakarta | Jogja
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                                <a href="#" class="btn btn-info">APPLY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                                <h4>SEO Analis</h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                                <p>Jakarta | Jogja
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                                <a href="#" class="btn btn-info">APPLY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     
