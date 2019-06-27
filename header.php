@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -58,8 +58,9 @@
                                 </div>
                             </li>
                             <li class="nav-item"><a class="nav-link"  href="our-team.php">Our Team</a></li>
+                            <li class="nav-item"><a class="nav-link"  href="artikel-ketentuan-diskon.php">PROMO</a></li>
                         </ul>
-                        <button class="btn btn-primary btn-login"><a href="#">Login</a></button>
+                        <button class="btn btn-primary btn-login"  onclick="window.location.href='login.php'">Login</button>
                     </div>
                 </nav>
                
