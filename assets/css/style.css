@@ -5,6 +5,7 @@ body {
 section.curve-main {
     position: relative;
     content: "";
+    background-color: #ffffff8a;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -637,10 +638,11 @@ section.curve-1 {
 
 .testimonial blockquote::after {
     content: "\201D";
-    bottom: 0px;
+    bottom: 0px;    
     right: 100px;
     color: #1341e3;
 }
+
 
 .testimonial-author p {
     color: #363346;
