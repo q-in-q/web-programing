@@ -118,6 +118,7 @@ include("jumbotron-main.php");
         <section class="curve-main">
         <div class="testimonials-cover section-title">
             <h2>What Our Customer Say</h2>
+            .
             <div class="container">
                     <div class="row">
                         <div class="col-md-12">
