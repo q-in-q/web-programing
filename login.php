@@ -11,8 +11,20 @@
 
 <body>
 
+    <?php 
+	if(isset($_GET['pesan'])){
+		if($_GET['pesan'] == "gagal"){
+			echo "Login gagal! username dan password salah!";
+		}else if($_GET['pesan'] == "logout"){
+			echo "Anda telah berhasil logout";
+		}else if($_GET['pesan'] == "belum_login"){
+			echo "Anda harus login untuk mengakses halaman admin";
+		}
+	}
+	?>
+
     <div class="box">
-        <form action="" style="max-width:500px;margin:auto">
+        <form action="login-process.php" method="post" style="max-width:500px;margin:auto">
             <div class="sign">
                 <a href="register.php"><p>SIGNUP</p></a>
             </div>
@@ -25,7 +37,7 @@
 
             <div class="input-container">
                 <i class="fa fa-lock icon"></i>
-                <input class="input-field" type="password" placeholder="Password" name="psw">
+                <input class="input-field" type="password" placeholder="Password" name="pass">
             </div>
 
             <div class="reset">
@@ -37,7 +49,7 @@
             </div>
             <br>
             
-            <button type="submit" class="btn">Login</button>
+            <button type="submit" class="btn" name="btn_login">Login</button>
         </form>
     </div>
 

@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
 
-                <form class="Form" action="" method="post">
+                <form class="Form" action="register-process.php" method="post">
                     <!--Batas-->
 
                     <div class="box">
@@ -42,14 +42,14 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <b>Company Name</b><br>
-                                    <input type="text" id="cname" name="cname" class="form-control">
+                                    <b>Username</b><br>
+                                    <input type="text" id="cname" name="username" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <b>Phone Address</b><br>
-                                    <input type="text" id="paddress" class="form-control">
+                                    <input type="text" id="paddress" name="phone" class="form-control">
                                 </div>
                             </div>
 
@@ -100,14 +100,14 @@
                             <div class="col-md-7">
                                 <div class="form-group">
                                     <b>Address 1</b><br />
-                                    <input type="text" id="Address 1" name="Address 1" class="form-control">
+                                    <input type="text" id="Address 1" name="address" class="form-control">
                                 </div>
                             </div>
 
                             <div class="col-md-5">
                                 <div class="form-group">
                                     <b>Address 2</b><br>
-                                    <input type="text" id="Address 2" name="Address 2" class="form-control">
+                                    <input type="text" id="Address 2" name="address2" class="form-control">
                                 </div>
                             </div>
                         </div>
@@ -119,11 +119,11 @@
                                 <div class="form-group">
                                     <b>Country</b><br />
                                     <select id="country" name="country" class="form-control">
-                                        <option value="">Indonesia</option>
-                                        <option value="">Malaysia</option>
-                                        <option value="">Singapore</option>
-                                        <option value="">Brunei</option>
-                                        <option value="">Filipina</option>
+                                        <option value="Indonesia">Indonesia</option>
+                                        <option value="Malaysia">Malaysia</option>
+                                        <option value="Singapore">Singapore</option>
+                                        <option value="Brunei">Brunei</option>
+                                        <option value="Filipina">Filipina</option>
                                         <option value="">Thailand</option>
                                         <option value="">Laos</option>
                                         <option value="">Vietnam</option>
@@ -138,19 +138,19 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <b>City</b><br />
-                                    <input type="text" id="Address 1" name="Address 1" class="form-control">
+                                    <input type="text" id="Address 1" name="city" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <b>Region</b><br />
-                                    <input type="text" id="Address 1" name="Address 1" class="form-control">
+                                    <input type="text" id="Address 1" name="region" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <b>Zip Code</b><br />
-                                    <input type="text" id="Address 1" name="Address 1" class="form-control">
+                                    <input type="text" id="Address 1" name="zipcode" class="form-control">
                                 </div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                                 <div class="form-group">
                                     <div class="otong">
                                         <b>Notifikasi</b><br />
-                                        <input type="checkbox" name="" value="">centang untuk menerima notifikasi
+                                        <input type="checkbox" name="" value=""> centang untuk menerima notifikasi
                                     </div>
                                 </div>
 
@@ -205,7 +205,7 @@
                             <p>We would like to send you occasional news, information and special offers by email. To join our mailing list, simply tick the box below. You can unsubscribe at any time.</p>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="" value=""> centang untuk menerima notifikasi
+                                    <input type="checkbox" name="agree" value="agree"> centang untuk menerima notifikasi
                                 </label>
                             </div>
                         </div>
@@ -218,7 +218,7 @@
                             </label>
                         </div>
                     </div>
-                    <input class="btn btn-lg btn-block btn-primary" type="submit" value="Register" > 
+                    <input class="btn btn-lg btn-block btn-primary" type="submit" value="Register" name="btn_register" > 
                     <!--Batas-->
                 </form>
 
