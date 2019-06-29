@@ -17,8 +17,11 @@ if(isset($_POST['btn_register'])){
     $zipcode = mysqli_real_escape_string($conn, trim($_POST['zipcode']));
 
     if ($pass != $cpass){
-        header('location: login.php');
-    }else {
+        header('location: register.php?pesan=password-failed');
+    }if ($_POST['check'] != 'checked'){
+        header('location: register.php?pesan=checked');
+    }
+    else {
         $sql = 'insert into tb_user values(
             "'.$fname.'",
             "'.$lname.'",

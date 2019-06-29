@@ -14,7 +14,7 @@ if($chek>0)
     $row = mysqli_fetch_array($user);
     $_SESSION['first_name'] = $row['first_name'];
     $_SESSION['status'] = "login";
-    header("location:success.php");
+    header("location:dashboard/index.php");
 
 }else
 {
