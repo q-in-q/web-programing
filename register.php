@@ -20,7 +20,7 @@
                     <!--Batas-->
 
                     <div class="box">
-                        <p><b><center>Sign Up</center></b></p>
+                        <p><center><b>Sign Up</b></center></p>
                         <p>
                         <?php 
                             if(isset($_GET['pesan'])){
