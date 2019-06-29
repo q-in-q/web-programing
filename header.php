@@ -50,16 +50,30 @@
                     
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto navigasi w-100 justify-content-end">  
+                            <li class="nav-item"><a class="nav-link"  href="/">HOME</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle">
-                                    Home
+                                    LAYANAN
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="./component.html">Component</a>
+                                    <a class="dropdown-item" href="#">Software Development</a>
+                                    <a class="dropdown-item" href="#">Web Development</a>
+                                    <a class="dropdown-item" href="#">SEO Analis</a>
+                                    <a class="dropdown-item" href="#">Sosial Media Marketin</a>
+                                    <a class="dropdown-item" href="#">Penetration Testing</a>
                                 </div>
                             </li>
-                            <li class="nav-item"><a class="nav-link"  href="our-team.php">Our Team</a></li>
                             <li class="nav-item"><a class="nav-link"  href="promo.php">PROMO</a></li>
+                            <li class="nav-item"><a class="nav-link"  href="our-team.php">OUR TEAM</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle">
+                                    BANTUAN
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="./faq.php">FAQ</a>
+                                    <a class="dropdown-item" href="./contact.php">Contact</a>
+                                </div>
+                            </li>
                         </ul>
                         <button class="btn btn-primary btn-login"  onclick="window.location.href='login.php'">Login</button>
                     </div>
