@@ -460,6 +460,21 @@ body#particles-js {
     padding: 0;
 }
 
+.main-promo-detail {
+    width: 100%;
+}
+
+.main-promo-detail img{
+    width: 750px;
+    padding: 100px 0 0 0;
+}
+
+.main-promo-detail p {
+    padding: 20px 180px;
+    text-align: justify;
+    font-size: 12px;
+}
+
 .our-team-section {
     position: relative;
     padding-top: 40px;
