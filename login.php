@@ -9,27 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-
-    <?php 
-	if(isset($_GET['pesan'])){
-		if($_GET['pesan'] == "gagal"){
-			echo "Login gagal! username dan password salah!";
-		}else if($_GET['pesan'] == "logout"){
-			echo "Anda telah berhasil logout";
-		}else if($_GET['pesan'] == "belum_login"){
-			echo "Anda harus login untuk mengakses halaman admin";
-		}
-	}
-	?>
-
+<body bgcolor="#F4F4F5">
     <div class="box">
         <form action="login-process.php" method="post" style="max-width:500px;margin:auto">
+            <p>
+                <?php 
+                if(isset($_GET['pesan'])){
+                    if($_GET['pesan'] == "gagal"){
+                        echo "<center><b>Login gagal! username dan password salah!</b></center>";
+                    }else if($_GET['pesan'] == "logout"){
+                        echo "<center><b>Anda telah berhasil logout</b></center>";
+                    }
+                }
+                ?>
+            </p>
             <div class="sign">
                 <a href="register.php"><p>SIGNUP</p></a>
             </div>
             <br>
-        
             <div class="input-container">
                 <i class="fa fa-envelope icon"></i>
                 <input class="input-field" type="text" placeholder="Email" name="email">
