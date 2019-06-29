@@ -44,7 +44,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 50) {
-            $("#nav").css("background-color" , "#06061fa1");
+            $("#nav").css("background-color" , "#000000ce");
             $("#nav").css("transition" , ".3s");
         }
         else{
@@ -85,7 +85,7 @@ let countDown1 = new Date('Sep 30, 2019 00:00:00').getTime(),
 
 }, second)
 
-let countDown2 = new Date('Aug 22, 2019 00:00:00').getTime(),
+let countDown2 = new Date('Aug 22, 2019 12:30:20').getTime(),
         x2 = setInterval(function() {
 
         let now = new Date().getTime(),
@@ -98,7 +98,7 @@ let countDown2 = new Date('Aug 22, 2019 00:00:00').getTime(),
 
 }, second)
 
-let countDown3 = new Date('Sep 01, 2019 00:00:00').getTime(),
+let countDown3 = new Date('Sep 01, 2019 20:10:20').getTime(),
         x3 = setInterval(function() {
 
         let now = new Date().getTime(),
@@ -111,7 +111,7 @@ let countDown3 = new Date('Sep 01, 2019 00:00:00').getTime(),
 
 }, second)
 
-let countDown4 = new Date('July 20, 2019 00:00:00').getTime(),
+let countDown4 = new Date('July 20, 2019 01:17:30').getTime(),
         x4 = setInterval(function() {
 
         let now = new Date().getTime(),
@@ -123,3 +123,17 @@ let countDown4 = new Date('July 20, 2019 00:00:00').getTime(),
         document.getElementById('seconds4').innerText = Math.floor((distance % (minute)) / second);
 
 }, second)
+
+let countDown5 = new Date('July 12, 2019 01:25:15').getTime(),
+        x5 = setInterval(function() {
+
+        let now = new Date().getTime(),
+          distance = countDown5 - now;
+
+        document.getElementById('days5').innerText = Math.floor(distance / (day)),
+        document.getElementById('hours5').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutes5').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('seconds5').innerText = Math.floor((distance % (minute)) / second);
+
+}, second)
+

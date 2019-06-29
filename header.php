@@ -7,6 +7,7 @@
 
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -14,7 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
     <script src="assets/js/js.js"></script>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 
     <title>HOME | My Consultant</title>
     
@@ -50,7 +51,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto navigasi w-100 justify-content-end">  
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="">
+                                <a class="nav-link dropdown-toggle">
                                     Home
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -58,7 +59,7 @@
                                 </div>
                             </li>
                             <li class="nav-item"><a class="nav-link"  href="our-team.php">Our Team</a></li>
-                            <li class="nav-item"><a class="nav-link"  href="artikel-ketentuan-diskon.php">PROMO</a></li>
+                            <li class="nav-item"><a class="nav-link"  href="promo.php">PROMO</a></li>
                         </ul>
                         <button class="btn btn-primary btn-login"  onclick="window.location.href='login.php'">Login</button>
                     </div>
