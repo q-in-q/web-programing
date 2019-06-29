@@ -21,8 +21,8 @@
 			echo "Anda harus login untuk mengakses halaman admin";
 		}
 	}
-	?>
-
+    ?>
+    <div class="fullwidth">
     <div class="box">
         <form action="login-process.php" method="post" style="max-width:500px;margin:auto">
             <div class="sign">
@@ -52,6 +52,9 @@
             <button type="submit" class="btn" name="btn_login">Login</button>
         </form>
     </div>
+    </div>
+
+    
 
 </body>
 

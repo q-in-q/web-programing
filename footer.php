@@ -14,7 +14,7 @@
         </div>
         <div class="footer-middle">
             <div class="container">
-                <div class=" row footer-middle-content">
+                <div class="row footer-middle-content">
                         <div class="col">
                             <h3>company name</h3>
                             <p>
@@ -24,10 +24,10 @@
                         <div class="col">
                             <h3>Using Product</h3>
                             <ul>
-                                <li>bootstrap</li>
-                                <li>Sass</li>
-                                <li>Visual Studio Code</li>
-                                <li>Xampp</li>
+                                <li> <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+                                <li> <a href="https://sass-lang.com/"    target="_blank">Sass</a></li>
+                                <li> <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
+                                <li> <a href="https://www.apachefriends.org/" target="_blank">Xampp</a> </li>
                             </ul>
                         </div>
                         <div class="col">
