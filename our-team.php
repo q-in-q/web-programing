@@ -18,7 +18,7 @@ include("jumbotron.php");
             <div class="container">
                 <h1>OUR TEAM</h1>
                 <div class="bio">
-                    <p>PT MITRAVISI CONSULTANT</p>
+                    <p>PT MITRA TECHNOLOGY</p>
                     <p>Dengan jajaran orang <b>luar biasa</b></p>
                 </div>
                 <div class="row">
