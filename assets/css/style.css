@@ -810,6 +810,11 @@ section.curve-1 {
     text-transform: capitalize;
 }
 
+.toggle {
+    width: 50px;
+    height: 50px;
+}
+
 .sticky.is-sticky {
     position: fixed;
     left: 0;
