@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
 body {
-    color: #060020;
     margin: 0;
     padding: 0;
 }
@@ -30,6 +29,16 @@ section.curve-main {
 
 #customers-testimonial {
     padding: 40px 0;
+}
+
+.background-promo-detail {
+    background: #00000091;
+    width: 100%;
+    height: 100%;
+}
+
+.background-promo-detail::before{
+    content: " ";
 }
 
 .btn-grad {
@@ -101,6 +110,7 @@ button.btn.btn-primary:hover {
 .btn-card-promo-disable {
     cursor: not-allowed;
 }
+
 
 .card-body {
     padding: 20px 5px 5px 5px;
@@ -475,6 +485,14 @@ body#particles-js {
     font-size: 12px;
 }
 
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.fullwidth-layout.main-promo-footer {
+    background: #fafafa;
+}
+
 .our-team-section {
     position: relative;
     padding-top: 40px;
@@ -807,6 +825,12 @@ section.curve-1 {
     .promosi-1 img {
         width: 100%;
     }
+    
+    
+}
+
+@media only screen and (max-width: 1200px){
+    
 }
 
 
@@ -835,6 +859,10 @@ section.curve-1 {
         width: calc(50% - 6px);
     }
 
+        .main-promo-detail p{
+            padding: 20px 0;
+        }
+
     .our-team { 
         margin-bottom: 30px; 
         width: 300px;
@@ -858,6 +886,10 @@ section.curve-1 {
 
     .main-selayang-content {
         width: 70%;
+    }
+    .main-promo-detail img {
+        width: 100%;
+        padding: 100px 0 0 0;
     }
 }
 
