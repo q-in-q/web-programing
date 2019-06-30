@@ -694,6 +694,16 @@ body#particles-js {
     padding-bottom: 20px;
 }
 
+.card-main.rules-promo h3 {
+    text-transform: capitalize;
+}
+
+.rules-promo p {
+    text-align: left;
+    padding: 10px 5px;
+    font-size: 12px;
+}
+
 section.curve-1 {
     width: 100%;
     height: 500px;
