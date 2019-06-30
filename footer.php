@@ -16,22 +16,26 @@
             <div class="container">
                 <div class="row footer-middle-content">
                         <div class="col">
-                            <h3>IT CONSULTANT</h3>
-                            <p>
-                                PT. IT Consultant adalah perusahaan Teknologi Informasi (TI) yang mengembangkan produk dan layanan IT hasil inovasi untuk memenuhi kebutuhan dan industri IT di Indonesia dan berharap produk dan layanan ini dapat berkontribusi meningkatkan kemajuan teknologi TI.
-                            </p>
-                        </div>
-                        <div class="col">
-                            <h3>Using Product</h3>
+                            <h3>LAYANAN</h3>
                             <ul>
-                                <li> <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
-                                <li> <a href="https://sass-lang.com/"    target="_blank">Sass</a></li>
-                                <li> <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
-                                <li> <a href="https://www.apachefriends.org/" target="_blank">Xampp</a> </li>
+                                <li> <a href="#" target="_blank">Web Development</a></li>
+                                <li> <a href="#"    target="_blank">Software Development</a></li>
+                                <li> <a href="#" target="_blank">SEO Analis</a></li>
+                                <li> <a href="#" target="_blank">Sosial Media Marketing</a> </li>
+                                <li> <a href="#" target="_blank">Penetration Testing</a> </li>
                             </ul>
                         </div>
                         <div class="col">
-                            <h3>Address</h3>
+                            <h3>Perusahaan</h3>
+                            <ul>
+                                <li> <a href="about.php" target="_blank">Tentang Perusahaan</a></li>
+                                <li> <a href="our-team.php"    target="_blank">Tim Kami</a></li>
+                                <li> <a href="faq.php" target="_blank">FAQ</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col">
+                            <h3>Hubungi Kami</h3>
                             <ul>
                                 <li><i class="fas fa-home"></i> Jl. Nusa Indah II no.57 - Condong Catur - Depok - Sleman - Yogyakarta</li>
                                 <li><i class="fas fa-phone"></i> +62 877 5853 2425</li>
@@ -43,7 +47,7 @@
         </div>
         <div class="footer-bottom">
             <div class="container">
-                <p><strong>it consultant </strong>&copy; 2019 - Universitas Amikom Yogyakarta</p>
+                <p><strong>PT MITRA TECHNOLOGY </strong>&copy; 2019 - Universitas Amikom Yogyakarta</p>
             </div>
         </div>
     </section>

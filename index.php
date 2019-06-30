@@ -55,7 +55,7 @@ include("jumbotron-main.php");
                         <div class="col-md-8 main-selayang-content section-title">
                             <h2>SELAYANG PANDANG</h2>
                             <p>
-                                PT. IT Consultant adalah perusahaan Teknologi Informasi (TI) yang berdiri tahun 2009 dan sahamnya dimiliki 100% oleh anak bangsa. Perusahaan ini di dedikasikan agar menjadi perusahaan TI yang mampu memberikan solusi dan layanan IT terbaik kepada customer. 
+                                PT Mitra Technology adalah perusahaan Teknologi Informasi (TI) yang berdiri tahun 2009 dan sahamnya dimiliki 100% oleh anak bangsa. Perusahaan ini di dedikasikan agar menjadi perusahaan TI yang mampu memberikan solusi dan layanan IT terbaik kepada customer. 
                                 <br>
                                 <br>
                                 Kami juga secara serius mengembangkan produk dan layanan TI hasil inovasi sendiri untuk memenuhi kebutuhan industri TI di Indonesia dan berharap produk dan layanan ini dapat berkontribusi meningkatkan kemajuan teknologi TI. 
@@ -135,7 +135,7 @@ include("jumbotron-main.php");
                                     <img src="./assets/img/Anwar Mari’e.jpg" class="img-responsive img-circle" alt="">
                                     <blockquote>
                                         <p>
-                                        PT. IT Consultant telah membantu kami dalam membangun infrastruktur cloud service Telenicore dengan hasil yang memuaskan. A recommended IT solution partner.
+                                        PT Mitra Technology telah membantu kami dalam membangun infrastruktur cloud service Telenicore dengan hasil yang memuaskan. A recommended IT solution partner.
                                         </p>
                                     </blockquote>
                                     <div class="testimonial-author">
@@ -150,7 +150,7 @@ include("jumbotron-main.php");
                                     <img src="./assets/img/TODDY.jpg" class="img-responsive img-circle" alt="">
                                     <blockquote>
                                         <p>
-                                        Infrastruktur jaringan komputer dibangun oleh PT. IT Consultant dengan solusi yang efisien dan efektif juga yang terpenting adalah dukungan support dan servicenya yang dedikatif.
+                                        Infrastruktur jaringan komputer dibangun oleh PT Mitra Technology dengan solusi yang efisien dan efektif juga yang terpenting adalah dukungan support dan servicenya yang dedikatif.
                                         </p>
                                     </blockquote>
                                     <div class="testimonial-author">
@@ -165,7 +165,7 @@ include("jumbotron-main.php");
                                     <img src="./assets/img/budi-73x73.jpg" class="img-responsive img-circle" alt="">
                                     <blockquote>
                                         <p>
-                                        PT. IT Consultant telah mendukung kami dalam mengembangkan infrastruktur jaringan komputer perusahaan kami berikut dengan solusi keamanannya dengan hasil yang memuaskan.
+                                        PT Mitra Technology telah mendukung kami dalam mengembangkan infrastruktur jaringan komputer perusahaan kami berikut dengan solusi keamanannya dengan hasil yang memuaskan.
                                         </p>
                                     </blockquote>
                                     <div class="testimonial-author">

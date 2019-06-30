@@ -122,11 +122,11 @@
                                         <option value="Singapore">Singapore</option>
                                         <option value="Brunei">Brunei</option>
                                         <option value="Filipina">Filipina</option>
-                                        <option value="">Thailand</option>
-                                        <option value="">Laos</option>
-                                        <option value="">Vietnam</option>
-                                        <option value="">Cambodia</option>
-                                        <option value="">Myanmar</option>
+                                        <option value="Thailand">Thailand</option>
+                                        <option value="Laos">Laos</option>
+                                        <option value="Vietnam">Vietnam</option>
+                                        <option value="Cambodia">Cambodia</option>
+                                        <option value="Myanmar">Myanmar</option>
                                     </select>
                                 </div>
                             </div>

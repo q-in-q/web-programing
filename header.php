@@ -7,6 +7,7 @@
 
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/scss/carousel.css">
         
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -17,7 +18,7 @@
     <script src="assets/js/js.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 
-    <title>HOME | My Consultant</title>
+    <title>PT Mitra Technology</title>
     
 </head>
 <body>
@@ -42,7 +43,7 @@
                                     <a class="dropdown-item" href="#">Software Development</a>
                                     <a class="dropdown-item" href="#">Web Development</a>
                                     <a class="dropdown-item" href="#">SEO Analis</a>
-                                    <a class="dropdown-item" href="#">Sosial Media Marketin</a>
+                                    <a class="dropdown-item" href="#">Sosial Media Marketing</a>
                                     <a class="dropdown-item" href="#">Penetration Testing</a>
                                 </div>
                             </li>

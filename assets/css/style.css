@@ -1227,6 +1227,23 @@ select {
     margin: 10px 0px;;
     text-align: left;
 }
+.carousel-client h3 {
+    font-weight: inherit;
+    font-family: 'PT Sans' ,Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    color: #64686E;
+    font-size: 35px;;;
+    padding-bottom: 10px; 
+    text-align: center;
+}
+.carousel-client h3:after {
+    content: '';
+    background: #3F9AFF;
+    display: block;
+    height: 3px;
+    width: 70px;
+    margin: 20px auto;
+}
 
 /* COBA */
 .nav-item {

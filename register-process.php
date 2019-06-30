@@ -38,7 +38,7 @@ if(isset($_POST['btn_register'])){
 
         )';
         mysqli_query($conn, $sql);
-        header ('location: login.php?login-success');
+        header ('location: login.php?pesan=register-success');
     }
     
 }

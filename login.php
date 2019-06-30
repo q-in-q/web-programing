@@ -17,8 +17,13 @@
                 if(isset($_GET['pesan'])){
                     if($_GET['pesan'] == "gagal"){
                         echo "<center><b>Login gagal! username dan password salah!</b></center>";
+                        header('Refresh: 3; URL=login.php');
                     }else if($_GET['pesan'] == "logout"){
                         echo "<center><b>Anda telah berhasil logout</b></center>";
+                        header('Refresh: 3; URL=login.php');
+                    }else if($_GET['pesan'] == "register-success"){
+                        echo "<center><b>Registrasi Berhasil!</b></center>";
+                        header('Refresh: 3; URL=login.php');
                     }
                 }
                 ?>
