@@ -55,7 +55,13 @@ include("jumbotron-main.php");
                         <div class="col-md-8 main-selayang-content section-title">
                             <h2>SELAYANG PANDANG</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore enim et quisquam quibusdam dolorum omnis nesciunt alias cumque, architecto amet illo debitis, ipsam tempore repellat ut, aspernatur pariatur iste.
+                                PT. IT Consultant adalah perusahaan Teknologi Informasi (TI) yang berdiri tahun 2009 dan sahamnya dimiliki 100% oleh anak bangsa. Perusahaan ini di dedikasikan agar menjadi perusahaan TI yang mampu memberikan solusi dan layanan IT terbaik kepada customer. 
+                                <br>
+                                <br>
+                                Kami juga secara serius mengembangkan produk dan layanan TI hasil inovasi sendiri untuk memenuhi kebutuhan industri TI di Indonesia dan berharap produk dan layanan ini dapat berkontribusi meningkatkan kemajuan teknologi TI. 
+                                <br>
+                                <br>
+                                Demi kepuasan pelanggan kami berupaya secara terus-menerus melakukan perbaikan dengan meningkatkan
                             </p>
                             <button class="btn-grad btn-grad-1">See More</button>
                         </div>
@@ -66,9 +72,11 @@ include("jumbotron-main.php");
                         <div class="col-md-4">
                             <h2>Are You Ready?</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore enim et quisquam quibusdam dolorum omnis nesciunt alias cumque, architecto amet illo debitis, ipsam tempore repellat ut, aspernatur pariatur iste.
+                                Apakah anda siap melihat bisnis anda semakin besar bahkan berkolaborasi dengan perusahaan - perusahaan besar di dunia? 
+                                <br><br>
+                                mari memulai bergabung bersama kami?
                             </p>
-                            <button class="btn-grad btn-grad-2">Join Us!</button>
+                            <button class="btn-grad btn-grad-2" onclick="window.location.href='register.php'">Join Us!</button>
                         </div>
                         <div class="col-md-8">
                             <img src="./assets/img/image-1.jpg" alt="">
@@ -124,46 +132,46 @@ include("jumbotron-main.php");
                         <div class="col-md-12">
                             <div id="customers-testimonial" class="text-center owl-carousel owl-theme">
                                 <div class="testimonial">
-                                    <img src="./assets/img/ed1__IMG_5369_fix1.png" class="img-responsive img-circle" alt="">
+                                    <img src="./assets/img/Anwar Mari’e.jpg" class="img-responsive img-circle" alt="">
                                     <blockquote>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur beatae pariatur quas unde dolores tempore deleniti id, laudantium fuga fugiat maxime sed enim quia reiciendis molestias! Aperiam praesentium eos commodi.
+                                        PT. IT Consultant telah membantu kami dalam membangun infrastruktur cloud service Telenicore dengan hasil yang memuaskan. A recommended IT solution partner.
                                         </p>
                                     </blockquote>
                                     <div class="testimonial-author">
                                         <p>
-                                            <strong>Anang Wahyu Pradana</strong>
-                                            <span>CEP & Founder Cicil.co.id</span>
+                                            <strong>Anwar Mari’e</strong>
+                                            <span>PT. Telenicore</span>
                                         </p>
                                     </div>
                                 </div>
     
                                 <div class="testimonial">
-                                    <img src="./assets/img/ed1__IMG_5369_fix1.png" class="img-responsive img-circle" alt="">
+                                    <img src="./assets/img/TODDY.jpg" class="img-responsive img-circle" alt="">
                                     <blockquote>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur beatae pariatur quas unde dolores tempore deleniti id, laudantium fuga fugiat maxime sed enim quia reiciendis molestias! Aperiam praesentium eos commodi.
+                                        Infrastruktur jaringan komputer dibangun oleh PT. IT Consultant dengan solusi yang efisien dan efektif juga yang terpenting adalah dukungan support dan servicenya yang dedikatif.
                                         </p>
                                     </blockquote>
                                     <div class="testimonial-author">
                                         <p>
-                                            <strong>Anang Wahyu Pradana</strong>
-                                            <span>CEP & Founder Cicil.co.id</span>
+                                            <strong>Prima A.</strong>
+                                            <span>PT. Sigma Research</span>
                                         </p>
                                     </div>
                                 </div>
     
                                 <div class="testimonial">
-                                    <img src="./assets/img/ed1__IMG_5369_fix1.png" class="img-responsive img-circle" alt="">
+                                    <img src="./assets/img/budi-73x73.jpg" class="img-responsive img-circle" alt="">
                                     <blockquote>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur beatae pariatur quas unde dolores tempore deleniti id, laudantium fuga fugiat maxime sed enim quia reiciendis molestias! Aperiam praesentium eos commodi.
+                                        PT. IT Consultant telah mendukung kami dalam mengembangkan infrastruktur jaringan komputer perusahaan kami berikut dengan solusi keamanannya dengan hasil yang memuaskan.
                                         </p>
                                     </blockquote>
                                     <div class="testimonial-author">
                                         <p>
-                                            <strong>Anang Wahyu Pradana</strong>
-                                            <span>CEP & Founder Cicil.co.id</span>
+                                            <strong>Budi R.</strong>
+                                            <span>PT. Intraco Penta</span>
                                         </p>
                                     </div>
                                 </div>

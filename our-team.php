@@ -15,7 +15,7 @@ include("jumbotron.php");
             </div>
         </section>
         <section class="team">
-            <div class="container">
+            <div class="container our-team-main">
                 <h1>OUR TEAM</h1>
                 <div class="bio">
                     <p>PT MITRA TECHNOLOGY</p>

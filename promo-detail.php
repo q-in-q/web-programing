@@ -11,8 +11,9 @@ include("jumbotron-promo-detail.php");
         
     </div>
 </div>
-<div class="fullwidth-layout  main-promo-footer">
-    <div class="container">
+<div class="fullwidth-layout main-promo-footer">
+    <div class="container text-center">
+        <h1>promo lainya</h1>
         <div class="row">
                 <div class=" col-sm-4">
                     <div class="card-main img-box">

@@ -22,23 +22,6 @@
 </head>
 <body>
     <section class="navigasi">
-            <!--
-            <ul class="head-text nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Overview</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="get-pro.php">Get PRO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contacts</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            -->
-
             <nav id="nav" class="navbar navbar-expand-lg navbar-light fixed-top" >
                 <div class="container">
                     <a class="navbar-brand" href="index.php">

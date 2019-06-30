@@ -493,6 +493,11 @@ body#particles-js {
     background: #fafafa;
 }
 
+.fullwidth-layout.main-promo-footer h1 {
+    padding: 20px 0 0 0;
+    text-transform: uppercase;
+}
+
 .our-team-section {
     position: relative;
     padding-top: 40px;
@@ -548,7 +553,10 @@ body#particles-js {
 .our-team:hover .pic:before{
     height: 100%;
     background: #0154cf; 
- }
+}
+
+
+
 .our-team .pic:after {
     content: "";
     width: 100%;
@@ -981,16 +989,16 @@ ul.head-text.nav.justify-content-center {
 .team {
     margin: 75px 0;
 }
-h1 {
+.our-team-main h1 {
     text-align: center;
     font-weight: bold;
     letter-spacing: 2px;
     color: #333;
     padding-bottom: 10px; 
 }
-h1:after {
+.our-team-main h1:after {
     content: '';
-    background: #ffffff;
+    background: #000000;
     display: block;
     height: 3px;
     width: 150px;
