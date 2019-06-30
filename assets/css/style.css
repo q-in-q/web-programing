@@ -698,6 +698,10 @@ body#particles-js {
     text-transform: capitalize;
 }
 
+.card-main.rules-promo {
+    margin-bottom: 20px;
+}
+
 .rules-promo p {
     text-align: left;
     padding: 10px 5px;
@@ -802,7 +806,6 @@ section.curve-1 {
     right: 100px;
     color: #1341e3;
 }
-
 
 .testimonial-author p {
     color: #363346;
