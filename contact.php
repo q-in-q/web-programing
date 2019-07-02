@@ -9,7 +9,7 @@
                     <div class="col">
                         <div class="head-contact"> 
                             <h2>HUBUNGI KAMI</h2>
-                            <p>Jika ada pertanyaan dsilahkan contact</p>
+                            <p>Hubungi kami jika apa pertanyaan : </p>
                         </div>
                         
                         

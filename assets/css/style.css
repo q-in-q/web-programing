@@ -409,10 +409,10 @@ button.btn.btn-primary:hover {
     background-size: contain, cover; 
     height: 500px;
 }
-body#particles-js {
+
+#particles-js {
     width: 100%;
-    background: #0096e7;
-    height: 100vh;
+    height: 500px;
 }
 
 .jumbotron-content-main {

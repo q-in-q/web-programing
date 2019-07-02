@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/register.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
@@ -26,8 +27,14 @@
                             if(isset($_GET['pesan'])){
                                 if($_GET['pesan'] == "password-failed"){
                                     echo "<center><b>Password salah</b></center>";
+                                    header('Refresh: 3; URL=register.php');
                                 }else if($_GET['pesan'] == "checked"){
                                     echo "<center><b>Harus dicentang</b><center>";
+                                    header('Refresh: 3; URL=register.php');
+                                }
+                                else if($_GET['pesan'] == "captcha"){
+                                    echo "<center><b>CAPTCHA harus diisi</b><center>";
+                                    header('Refresh: 3; URL=register.php');
                                 }
                             }
                         ?>
@@ -65,7 +72,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <b>Email Address</b><br>
-                                    <input type="text" id="email" name="email" class="form-control" required>
+                                    <input type="email" id="email" name="email" class="form-control" required>
                                 </div>
                             </div>
                         </div>
@@ -157,10 +164,10 @@
 
                     <div class="form-group">
                         <div class="box">
-                            <p>We would like to send you occasional news, information and special offers by email. To join our mailing list, simply tick the box below. You can unsubscribe at any time.</p>
+                            <div class="g-recaptcha" data-sitekey="6Lc5u6sUAAAAAHqhhLZDJA6UZaWEh6o3jtlzP1PQ"></div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="agree" value="agree"> centang untuk menerima notifikasi
+                                <input type="checkbox" name="check" value="checked"> I have read and agree to the <a href="#" target="_blank">Terms of Service</a>
                                 </label>
                             </div>
                         </div>
@@ -169,7 +176,7 @@
                     <div class="mt-2">
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox" name="check" value="checked"> I have read and agree to the <a href="#" target="_blank">Terms of Service</a>
+                                
                             </label>
                         </div>
                     </div>
