@@ -159,6 +159,17 @@ include("jumbotron-promo.php");
                 </li>
             </ul>
         </nav>
+        <div class="row">
+            <div class="col">
+                <div class="card-main rules-promo">
+                    <h3>Bagaimana cara menggunakan diskon?</h3>
+                    <p>Anda dapat menggunakan Diskon dengan Sangat mudah di PT Mitra Technology. Tidak perlu khawatir, Anda bisa mengikuti Tutorial Berikut ini mengenai <a href="#">Cara menggunakan Diskon (Kode Promo) di PT Mitra Technology</a></p>
+                </div>
+            </div>
+            <div class="col">
+                
+            </div>
+        </div>
     </div>
 </div>
 
