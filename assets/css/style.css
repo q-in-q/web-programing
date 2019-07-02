@@ -8,7 +8,7 @@ body {
 section.curve-main {
     position: relative;
     content: "";
-    background-color: #ffffff8a;
+    background-color: #ffffffe8;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -156,6 +156,19 @@ button.btn.btn-primary:hover {
 
 .dropdown:hover>.dropdown-menu {
     display: block;
+}
+
+.download {
+    background: #0096e7;
+}
+
+.download-deskripsi p {
+    padding: 10px 0 0 10px;
+    text-align: justify;
+}
+
+.col.thumbnail img{
+    width: 350px;
 }
 
 .fa-facebook-f {
@@ -394,7 +407,7 @@ button.btn.btn-primary:hover {
 }
 
 .jumbotron-child-1 {
-    background: url(http://idcloudhost.com/wp-content/uploads/2019/06/Banner-Homepage-IDcloudhost-2019.jpg) no-repeat 50% 50%;
+    background: url(../img/Artboard\ 135@2x-100.jpg) no-repeat 50% 50%;
     background-size: cover;
     height: 550px;
 }
@@ -405,8 +418,8 @@ button.btn.btn-primary:hover {
 }
 
 .jumbotron-child-2 {
-    background: url(http://idcloudhost.com/wp-content/uploads/2016/05/pattern.jpg) repeat 50% 50%;
-    background-size: contain, cover; 
+    background: url(../img/jumbotro01.jpg) repeat 50% 50%;
+    background-size: cover; 
     height: 500px;
 }
 body#particles-js {
@@ -818,7 +831,7 @@ section.curve-1 {
 }
 
 .testimonials-cover.section-title {
-    background-color: #ffffffd5;
+    background-color: #ffffffef;
 }
 
 .testimonials-cover h3 {
@@ -1262,3 +1275,5 @@ select {
 .nav-item {
     margin: 0 10px;
 }
+
+

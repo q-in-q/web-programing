@@ -6,9 +6,9 @@ include("jumbotron.php");
 <div class="navbar-container">
         <nav>
             <ul>
-                <a href="company.php"><li class="tab-click">Company</li></a>
+                <a href="about.php"><li class="tab-click">Company</li></a>
                 <a href="our-team.php"><li>Our Team</li></a>
-                <a href="#"><li>Download</li></a>
+                <a href="download.php"><li>Download</li></a>
             </ul>
         </nav>
     </div>

@@ -9,7 +9,7 @@ include("jumbotron.php");
                     <ul>
                         <a href="about.php"><li>Company</li></a>
                         <a href="our-team.php"><li class="tab-click">Our Team</li></a>
-                        <a href="#"><li>Download</li></a>
+                        <a href="download.php"><li>Download</li></a>
                     </ul>
                 </nav>
             </div>
