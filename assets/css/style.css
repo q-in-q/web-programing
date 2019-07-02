@@ -78,6 +78,11 @@ section.curve-main {
     box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
 }
 
+.btn-grad-3 {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #a025da, #550066);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
 button.btn.btn-primary, button.btn.btn-primary.btn-login {
     padding: 5px 20px;
     background-color: #00a6ff;
@@ -159,12 +164,46 @@ button.btn.btn-primary:hover {
 }
 
 .download {
-    background: #0096e7;
 }
 
 .download-deskripsi p {
     padding: 10px 0 0 10px;
     text-align: justify;
+}
+
+.download-judul h1 {
+    text-transform: capitalize;
+}
+
+.download-judul button {
+    align-content: center;
+}
+
+.download-judul h1, .download-judul .price {
+    font-weight: bolder;
+}
+
+.download-judul .price {
+    color: #00a708;
+    text-transform: uppercase;
+}   
+
+.download-more {
+    padding: 40px 0 0 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.download-more p {
+    color: #0096e7;
+}
+
+.download-more a {
+    text-decoration: none;
+}
+
+.download-more a:hover {
+    color: #02a7ff;
 }
 
 .col.thumbnail img{
