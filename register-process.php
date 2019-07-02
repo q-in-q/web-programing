@@ -3,6 +3,8 @@
 require_once("db_connection.php");
 
 if(isset($_POST['btn_register'])){
+
+
     $fname = mysqli_real_escape_string($conn, trim($_POST['firstname']));
     $lname = mysqli_real_escape_string($conn, trim($_POST['lastname']));
     $username = mysqli_real_escape_string($conn, trim($_POST['username']));
@@ -16,12 +18,23 @@ if(isset($_POST['btn_register'])){
     $region = mysqli_real_escape_string($conn, trim($_POST['region']));
     $zipcode = mysqli_real_escape_string($conn, trim($_POST['zipcode']));
 
+    $secretKey = '6Lc5u6sUAAAAAKCcau77W2Hu-ddQhL7ecaLnKCOC';
+    $captcha = $_POST['g-recaptcha-response'];
+    $remoteip = $_SERVER['REMOTE_ADDR'];
+
+    $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$captcha&remoteip=$remoteip";
+
+    $response = file_get_contents($url);
+    $response = json_decode($response);
+
+    
     if ($pass != $cpass){
         header('location: register.php?pesan=password-failed');
-    }if ($_POST['check'] != 'checked'){
+    }if($_POST['check'] != 'checked'){
         header('location: register.php?pesan=checked');
-    }
-    else {
+    }if($response->success==false){
+        header('location: register.php?pesan=captcha');
+    }if ($response->success && $pass == $cpass && $_POST['check'] == 'checked') {
         $sql = 'insert into tb_user values(
             "'.$fname.'",
             "'.$lname.'",
@@ -40,7 +53,5 @@ if(isset($_POST['btn_register'])){
         mysqli_query($conn, $sql);
         header ('location: login.php?pesan=register-success');
     }
-    
 }
-
 ?>
