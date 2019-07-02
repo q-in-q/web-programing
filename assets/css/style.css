@@ -1310,6 +1310,26 @@ select {
     margin: 20px auto;
 }
 
+/*=====================================================
+        AJAX LOADING
+=====================================================*/
+
+    div#loading-overlay {
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('https://i0.wp.com/cdnjs.cloudflare.com/ajax/libs/galleriffic/2.0.1/css/loader.gif?resize=48%2C48');
+    display: none;
+    position: absolute;
+    left: 0;
+      top: 0;
+      z-index: 10000;
+      opacity: 0.9;
+  }
+  div#container {
+    text-align: center;
+  }
+
 /* COBA */
 .nav-item {
     margin: 0 10px;

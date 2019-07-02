@@ -137,3 +137,70 @@ let countDown5 = new Date('July 12, 2019 01:25:15').getTime(),
 
 }, second)
 
+var myApp = {
+    loadingTimer: null,
+    
+    loading: function(show, delay) {
+      clearTimeout(myApp.loadingTimer);
+      if (show === undefined) {
+          show = true;
+      }
+      if (show && (delay !== undefined)) {
+          myApp.loadingTimer = setTimeout(function() {
+            myApp.loading(true);
+          }, delay);
+          return;
+      }
+      $overlay = $("div#loading-overlay");
+      if (show) {
+          var screenTop = $(document).scrollTop();
+          var w = $(window).width().toString()
+          var h = $(window).height().toString();
+          $overlay.css("top", screenTop);
+          $overlay.width(w);
+          $overlay.height(h);
+          $overlay.show();
+      }
+      else {
+        $overlay.hide();
+      }
+    }
+  }
+  
+  $(function() {
+    $("#fast-load").click(function() {
+      myApp.loading(true, 500);
+      $.ajax({
+        url: '../promo-detail.php',
+        async: true,
+        error: function (jqXHR, textStatus, errorThrown) {
+          myApp.loading(false);
+          alert("Page loaded");
+        },
+        success: function (data, textStatus, jqXHR) {
+          myApp.loading(false);
+          alert("Page loaded");
+        }
+      });
+    });
+    
+    $("#slow-load").click(function() {
+      myApp.loading(true, 500);
+      //-- Simulate a slow-loading site through a 2 second delay
+      window.setTimeout(function() {
+        $.ajax({
+          url: '../promo-detail.php',
+          async: true,
+          error: function (jqXHR, textStatus, errorThrown) {
+            myApp.loading(false);
+            alert("Success Apply Code, Please Login Now!");
+          },
+          success: function (data, textStatus, jqXHR) {
+            myApp.loading(false);
+            alert("Success Apply Code, Please Login Now!");
+          }
+        });
+      }, 2000);
+    });
+  });
+  

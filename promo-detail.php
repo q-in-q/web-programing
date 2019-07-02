@@ -9,6 +9,12 @@ include("jumbotron-promo-detail.php");
 
         <p>Lihat syarat dan ketentuan Promo <span> <a href="syarat-ketentuan-diskon.php">di sini</a> </span> </p>
         
+        <div id="loading-overlay">
+            <p>Please wait</p>
+        </div>
+        <div id="container">
+            <button id="slow-load" class="btn-grad btn-grad-1" ><i class="fas fa-check"></i> APPLY NOW</button>
+        </div>
     </div>
 </div>
 <div class="fullwidth-layout main-promo-footer">
