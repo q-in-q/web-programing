@@ -55,7 +55,7 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="./faq.php">FAQ</a>
-                                    <a class="dropdown-item" href="./contact.php">Contact</a>
+                                    <a class="dropdown-item" href="./contact.php">KONTAK</a>
                                 </div>
                             </li>
                         </ul>
