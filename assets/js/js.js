@@ -168,21 +168,7 @@ var myApp = {
   }
   
   $(function() {
-    $("#fast-load").click(function() {
-      myApp.loading(true, 500);
-      $.ajax({
-        url: '../promo-detail.php',
-        async: true,
-        error: function (jqXHR, textStatus, errorThrown) {
-          myApp.loading(false);
-          alert("Page loaded");
-        },
-        success: function (data, textStatus, jqXHR) {
-          myApp.loading(false);
-          alert("Page loaded");
-        }
-      });
-    });
+    
     
     $("#slow-load").click(function() {
       myApp.loading(true, 500);
@@ -193,11 +179,11 @@ var myApp = {
           async: true,
           error: function (jqXHR, textStatus, errorThrown) {
             myApp.loading(false);
-            alert("Success Apply Code, Please Login Now!");
+            alert("Loading Success, Happy Your Explore!");
           },
           success: function (data, textStatus, jqXHR) {
             myApp.loading(false);
-            alert("Success Apply Code, Please Login Now!");
+            alert("Loading Success, Happy Your Explore!");
           }
         });
       }, 2000);

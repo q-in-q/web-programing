@@ -83,6 +83,11 @@ section.curve-main {
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 
+.btn-grad-4 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
 button.btn.btn-primary, button.btn.btn-primary.btn-login {
     padding: 5px 20px;
     background-color: #00a6ff;
@@ -500,7 +505,7 @@ button.btn.btn-primary:hover {
 
 .jumbotron-promo-detail {
     background-color: #0096e7;
-    background: url(../img/Promo-Domain-ID-Juni-2019-IDCloudHost.jpg) no-repeat 50% 50%;
+    background: url(../img/conjuly1plus.jpg) no-repeat 50% 50%;
     background-size:  cover; 
     height: 550px;
 }
@@ -528,7 +533,7 @@ button.btn.btn-primary:hover {
 
 .main-promo-detail img{
     width: 750px;
-    padding: 100px 0 0 0;
+    padding: 50px 0 0 0;
 }
 
 .main-promo-detail p {
@@ -715,6 +720,7 @@ button.btn.btn-primary:hover {
     display: inline-block;
     padding: 5px;
 }
+
 
 .promo-hitung-mundur ul {
     margin: 0;
@@ -1315,20 +1321,21 @@ select {
 =====================================================*/
 
     div#loading-overlay {
-    background-color: rgb(0, 0, 0);
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('https://i0.wp.com/cdnjs.cloudflare.com/ajax/libs/galleriffic/2.0.1/css/loader.gif?resize=48%2C48');
+    background-image: url('https://1.bp.blogspot.com/-Z4NueKmr1Bw/WMkssb-4RGI/AAAAAAAAA98/7BtKVFcqMo0PUMF81wEhsbWWkIMjJDlEQCLcB/s1600/Round%2BAnimated%2BLoading%2BGif.gif');
     display: none;
     position: absolute;
     left: 0;
-      top: 0;
-      z-index: 10000;
-      opacity: 0.9;
+    top: 0;
+    z-index: 10000;
+    opacity: 0.9;
   }
   div#container {
     text-align: center;
   }
+  
 
 /* COBA */
 .nav-item {

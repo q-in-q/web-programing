@@ -8,9 +8,9 @@ include("jumbotron-promo.php");
         <div class="row">
             <div class="col">
                 <div class="card-main">
-                    <img class="card-img-top" src="./assets/img/Promo-Domain-ID-Juni-2019-IDCloudHost.JPG" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/img/conjuly6plus.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h2>Promo Domain ID – Rp 107 Rb / Tahunsasasasaasa</h2>
+                        <h2>PROMO PERPANJANGAN PELAYANAN 6 BULAN</h2>
                         <hr>
                     </div>
                     <div class="promo-hitung-mundur">
@@ -27,9 +27,9 @@ include("jumbotron-promo.php");
             </div>
             <div class="col">
                 <div class="card-main">
-                    <img class="card-img-top" src="./assets/img/Promo-Domain-ID-Juni-2019-IDCloudHost.JPG" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/img/conjuly6plus.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h2>Promo Domain ID – Rp 107 Rb / Tahunsasasasaasa</h2>
+                        <h2>PROMO PERPANJANGAN PELAYANAN 6 BULAN</h2>
                         <hr>
                     </div>
                     <div class="promo-hitung-mundur">
@@ -46,9 +46,9 @@ include("jumbotron-promo.php");
             </div>
             <div class="col">
                 <div class="card-main">
-                    <img class="card-img-top" src="./assets/img/Promo-Domain-ID-Juni-2019-IDCloudHost.JPG" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/img/conjuly3plus.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h2>Promo Domain ID – Rp 107 Rb / Tahunsasasasaasa</h2>
+                        <h2>PROMO PERPANJANGAN PELAYANAN 3 BULAN</h2>
                         <hr>
                     </div>
                     <div class="promo-hitung-mundur">
@@ -65,9 +65,9 @@ include("jumbotron-promo.php");
             </div>
             <div class="col">
                 <div class="card-main">
-                    <img class="card-img-top" src="./assets/img/Promo-Domain-ID-Juni-2019-IDCloudHost.JPG" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/img/conjuly3plus.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h2>Promo Domain ID – Rp 107 Rb / Tahunsasasasaasa</h2>
+                        <h2>PROMO PERPANJANGAN PELAYANAN 3 BULAN</h2>
                         <hr>
                     </div>
                     <div class="promo-hitung-mundur">
@@ -86,9 +86,9 @@ include("jumbotron-promo.php");
         <div class="row">
             <div class="col">
                 <div class="card-main">
-                    <img class="card-img-top" src="./assets/img/Promo-Domain-ID-Juni-2019-IDCloudHost.JPG" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/img/conjuly3plus.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h2>Promo Domain ID – Rp 107 Rb / Tahunsasasasaasa</h2>
+                        <h2>PROMO PERPANJANGAN PELAYANAN 3 BULAN</h2>
                         <hr>
                     </div>
                     <div class="promo-hitung-mundur">
@@ -105,37 +105,37 @@ include("jumbotron-promo.php");
             </div>
             <div class="col">
                 <div class="card-main">
-                    <img class="card-img-top" src="./assets/img/Promo-Domain-ID-Juni-2019-IDCloudHost.JPG" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/img/conjuly1plus.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h2>Promo Domain ID – Rp 107 Rb / Tahunsasasasaasa</h2>
+                        <h2>PROMO PERPANJANGAN PELAYANAN 3 BULAN</h2>
                         <hr>
                     </div>
                     <div class="promo-hitung-mundur promo-habis">
                         <i class="far fa-clock"></i><p>Promo berakhir</p>
                         
-                        <button class="btn btn-secondary btn-card-promo-disable">lihat detail</button>
+                        <button class="btn btn-secondary btn-card-promo-disable" onclick="window.location.href='promo-detail.php'">lihat detail</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card-main">
-                    <img class="card-img-top" src="./assets/img/Promo-Domain-ID-Juni-2019-IDCloudHost.JPG" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/img/conjuly1plus.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h2>Promo Domain ID – Rp 107 Rb / Tahunsasasasaasa</h2>
+                        <h2>PROMO PERPANJANGAN PELAYANAN 1 BULAN</h2>
                         <hr>
                     </div>
                     <div class="promo-hitung-mundur promo-habis">
                         <i class="far fa-clock"></i><p>Promo berakhir</p>
                         
-                        <button class="btn btn-secondary btn-card-promo-disable">lihat detail</button>
+                        <button class="btn btn-secondary btn-card-promo-disable" onclick="window.location.href='promo-detail.php'">lihat detail</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card-main">
-                    <img class="card-img-top" src="./assets/img/Promo-Domain-ID-Juni-2019-IDCloudHost.JPG" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/img/conjuly1plus.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h2>Promo Domain ID – Rp 107 Rb / Tahunsasasasaasa</h2>
+                        <h2>PROMO PERPANJANGAN PELAYANAN 1 BULAN</h2>
                         <hr>
                     </div>
                     <div class="promo-hitung-mundur promo-habis">
