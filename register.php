@@ -5,20 +5,15 @@
     <meta charset="utf-8">
     <title>Register</title>
     <link rel="stylesheet" href="./assets/css/register.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
         <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <script src="assets/js/jquery.passwordGenerator.js" type="text/javascript"></script>
-    <script src="assets/js/jquery.passwordGenerator.min.js" type="text/javascript"></script>
 </head>
 
 <body>
 <div class="col-md-12">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+            <div class="col">
 
                 <form class="Form" action="register-process.php" method="post">
                     <!--Batas-->
