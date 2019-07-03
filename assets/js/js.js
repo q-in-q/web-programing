@@ -190,3 +190,5 @@ var myApp = {
     });
   });
   
+//GENERATE PASSWORD
+

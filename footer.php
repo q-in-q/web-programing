@@ -4,6 +4,7 @@
             <div class="container footer-top-content">
                 <p>Get Connected With Us On Social Network</p>
                 <ul class="social-media-footer">
+                    <li><a href="https://api.whatsapp.com/send?phone=6287758532425&text=Halo,%20Anang%20Wahyu%20Pradana" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>

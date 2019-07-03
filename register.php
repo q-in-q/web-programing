@@ -5,21 +5,23 @@
     <meta charset="utf-8">
     <title>Register</title>
     <link rel="stylesheet" href="./assets/css/register.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<script src="assets/js/dist/jquery.password-validator.js"></script>
+		<link rel="stylesheet" href="assets/js/dist/jquery-password-validator.css">
+
+
         <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <script src="assets/js/jquery.passwordGenerator.js" type="text/javascript"></script>
-    <script src="assets/js/jquery.passwordGenerator.min.js" type="text/javascript"></script>
-    <link rel="shortcut icon" href="./assets/img/favicon.png">
 </head>
 
-<body>
+<body style="background-color: #F4F4F5;">
 <div class="col-md-12">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+            <div class="col">
 
                 <form class="Form" action="register-process.php" method="post">
                     <!--Batas-->
@@ -88,15 +90,24 @@
                             <div class="col-md-6 generatorWrapper">
                                 <div class="form-group">
                                     <b>Password</b><br>
-                                    <input type="text" id="password" name="password" class="form-control" required>
+                                    <input type="password" id="password" name="password" class="form-control" required>
                                     
                                 </div>
                                 <div class="form-group">
                                     <b>Confirm Password</b><br>
-                                    <input type="text" id="cpassword" name="confirmpassword" class="form-control" required>
+                                    <input type="password" id="cpassword" name="confirmpassword" class="form-control" required>
                                 </div>
                             </div>
-
+                            <script>
+                                $(function() {
+                                        $("#password").passwordValidator({
+                                            // list of qualities to require
+                                            require: ['length', 'lower', 'upper', 'digit'],
+                                            // minimum length requirement
+                                            length: 8
+                                        });
+                                });
+                            </script>
                             <div class="col-md-6">
                                 <div class="tips">
                                     <div class="tips-sm">
@@ -163,6 +174,7 @@
                     <div class="form-group">
                         <div class="box">
                             <div class="g-recaptcha" data-sitekey="6Lc5u6sUAAAAAHqhhLZDJA6UZaWEh6o3jtlzP1PQ"></div>
+                            <br/>
                             <div class="checkbox">
                                 <label>
                                 <input type="checkbox" name="check" value="checked"> I have read and agree to the <a href="#" target="_blank">Terms of Service</a>
@@ -173,13 +185,11 @@
 
                     <div class="mt-2">
                         <div class="checkbox">
-                            <label>
-                                
-                            </label>
                         </div>
                     </div>
                     <input class="btn btn-lg btn-block btn-primary" type="submit" value="Register" name="btn_register" > 
                     <!--Batas-->
+                    <br>
                 </form>
 
 

@@ -236,6 +236,10 @@ button.btn.btn-primary:hover {
     background: #e4405f;
 }
 
+.fa-whatsapp {
+    background: #25d366;
+}
+
 .fitur-detail {
     text-align: center;
     padding-top: 20px;
