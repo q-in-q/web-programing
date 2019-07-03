@@ -31,6 +31,10 @@ section.curve-main {
     padding: 40px 0;
 }
 
+a.nav-link:hover {
+    background: #fff;
+}
+
 .background-promo-detail {
     background: #000000c2;
     width: 100%;
