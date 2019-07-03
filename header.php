@@ -18,6 +18,8 @@
     <script src="assets/js/js.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+
     <title>PT Mitra Technology</title>
     
 </head>
@@ -26,7 +28,7 @@
             <nav id="nav" class="navbar navbar-expand-lg navbar-light fixed-top" >
                 <div class="container">
                     <a class="navbar-brand" href="index.php">
-                        <img src="./assets/img/white.png" width="100" class="d-inline-block align-top" alt="">
+                        <img src="./assets/img/LOGO.PNG" width="200" class="d-inline-block align-top" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="toggler"><i class="fas fa-bars"></i></span>
