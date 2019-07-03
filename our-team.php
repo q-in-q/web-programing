@@ -197,7 +197,7 @@ include("jumbotron.php");
                     <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
                         <div class="row card-part">
                             <div class="col-md-12 col-sm-12 col-xs-12 card-title">
-                                <h4>Software Enfineer</h4>
+                                <h4>Software Engineer</h4>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12 card-description">
                                 <p>Jogja | Jogja

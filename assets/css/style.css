@@ -1198,7 +1198,7 @@ input[type="text"], input[type="email"] {
     line-height: 50px;
     padding-left: 1rem;
 }
-#text, #full_name, #email {
+#text, #full_name, #email-contact {
     border: none;
 }
 select {

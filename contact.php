@@ -25,7 +25,7 @@
 
                                 <div class="form-group col-md-6">
                                     <label for="email" class="sr-only">Email Address: </label>
-                                    <input name="email" id="email" placeholder="Email Address" type="email" value="" required="required" data-error="Please enter a valid email.">
+                                    <input name="email" id="email-contact" placeholder="Email Address" type="email" value="" required="required" data-error="Please enter a valid email.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <!-- close col-->
