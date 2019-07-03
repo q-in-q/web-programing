@@ -10,7 +10,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
         <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 		<script src="assets/js/dist/jquery.password-validator.js"></script>
-		<link rel="stylesheet" href="assets/js/dist/jquery-password-validator.css">
+        <link rel="stylesheet" href="assets/js/dist/jquery-password-validator.css">
 
 
         <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -98,25 +98,6 @@
                                     <input type="password" id="cpassword" name="confirmpassword" class="form-control" required>
                                 </div>
                             </div>
-                            <script>
-                                $(function() {
-                                        $("#password").passwordValidator({
-                                            // list of qualities to require
-                                            require: ['length', 'lower', 'upper', 'digit'],
-                                            // minimum length requirement
-                                            length: 8
-                                        });
-                                });
-                            </script>
-                            <div class="col-md-6">
-                                <div class="tips">
-                                    <div class="tips-sm">
-                                        <div class="tips tips-sm">
-                                            <button class="btn btn-primary" id="btn">GENERATE</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -198,4 +179,14 @@
     </div>
 </div>
 </body>
+<script>
+$(function() {
+        $("#password").passwordValidator({
+            // list of qualities to require
+            require: ['length', 'lower', 'upper', 'digit'],
+            // minimum length requirement
+            length: 8
+        });
+});
+</script>
 </html>
