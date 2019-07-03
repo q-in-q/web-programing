@@ -16,16 +16,16 @@ include("jumbotron.php");
         </section>
         <section class="team">
             <div class="container our-team-main">
-                <h1>OUR TEAM</h1>
+                <h1>Our Team</h1>
                 <div class="bio">
                     <p>PT MITRA TECHNOLOGY</p>
-                    <p>Dengan jajaran orang <b>luar biasa</b></p>
+                    <p>Temui tim kami yang <b>Luar Biasa</b></p>
                 </div>
                 <div class="row">
                     <div class="col-md-4"></div>
                     <div class="col-md-4 profile text-center">
                         <div class="img-box">
-                        <img src="assets/img/pic.png" class="img-responsive" >
+                        <img src="assets/img/anang.png" class="img-responsive" >
                             <ul>
                                 <a href="#"><li><i class="fa fa-facebook-f"></i></li></a>
                                 <a href="#"><li><i class="fa fa-twitter"></i></li></a>
@@ -33,61 +33,61 @@ include("jumbotron.php");
                             </ul>
                         </div>
                         <h2>Anang Wahyu Pradana</h2>
-                        <h3>CEO</h3>
-                        <p>Subscribe</p>
+                        <h3>Chief Executive Officer</h3>
+                      
                     </div>
                     <div class="col-md-4"></div>
                     <div class="col-md-3 profile text-center">
                         <div class="img-box">
-                        <img src="assets/img/pic.png" class="img-responsive" >
+                        <img src="assets/img/dina.png" class="img-responsive" >
                             <ul>
                                 <a href="#"><li><i class="fa fa-facebook-f"></i></li></a>
                                 <a href="#"><li><i class="fa fa-twitter"></i></li></a>
                                 <a href="#"><li><i class="fa fa-instagram"></i></li></a>
                             </ul>
                         </div>
-                        <h2>Anang Wahyu Pradana</h2>
-                        <h3>CEO</h3>
-                        <p>Subscribe</p>
+                        <h2>Dina Amalia</h2>
+                        <h3>Chief Marketing Officer</h3>
+                        
                     </div>    
                     <div class="col-md-3 profile text-center">
                         <div class="img-box">
-                        <img src="assets/img/pic.png" class="img-responsive" >
+                        <img src="assets/img/rizky.png" class="img-responsive" >
                             <ul>
                                 <a href="#"><li><i class="fa fa-facebook-f"></i></li></a>
                                 <a href="#"><li><i class="fa fa-twitter"></i></li></a>
                                 <a href="#"><li><i class="fa fa-instagram"></i></li></a>
                             </ul>
                         </div>
-                        <h2>Anang Wahyu Pradana</h2>
-                        <h3>CEO</h3>
-                        <p>Subscribe</p>
+                        <h2>Rizki Hanggoro</h2>
+                        <h3>System Analyst</h3>
+                       
                     </div>    
                     <div class="col-md-3 profile text-center">
                         <div class="img-box">
-                        <img src="assets/img/pic.png" class="img-responsive" >
+                        <img src="assets/img/erlangga.png" class="img-responsive" >
                             <ul>
                                 <a href="#"><li><i class="fa fa-facebook-f"></i></li></a>
                                 <a href="#"><li><i class="fa fa-twitter"></i></li></a>
                                 <a href="#"><li><i class="fa fa-instagram"></i></li></a>
                             </ul>
                         </div>
-                        <h2>Anang Wahyu Pradana</h2>
-                        <h3>CEO</h3>
-                        <p>Subscribe</p>
+                        <h2>Erlangga Fausa</h2>
+                        <h3>Cyber Security Specialist</h3>
+                        
                     </div> 
                     <div class="col-md-3 profile text-center">
                         <div class="img-box">
-                        <img src="assets/img/pic.png" class="img-responsive" >
+                        <img src="assets/img/alvin.png" class="img-responsive" >
                             <ul>
                                 <a href="#"><li><i class="fa fa-facebook-f"></i></li></a>
                                 <a href="#"><li><i class="fa fa-twitter"></i></li></a>
                                 <a href="#"><li><i class="fa fa-instagram"></i></li></a>
                             </ul>
                         </div>
-                        <h2>Anang Wahyu Pradana</h2>
-                        <h3>CEO</h3>
-                        <p>Subscribe</p>
+                        <h2>Alvin Adwitya</h2>
+                        <h3>Network Specialist</h3>
+                        
                     </div> 
                 </div>
             </div>
