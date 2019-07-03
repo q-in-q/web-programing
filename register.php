@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="assets/js/jquery.passwordGenerator.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.passwordGenerator.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -81,10 +84,11 @@
                     <div class="box">
 
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 generatorWrapper">
                                 <div class="form-group">
                                     <b>Password</b><br>
                                     <input type="text" id="password" name="password" class="form-control" required>
+                                    
                                 </div>
                                 <div class="form-group">
                                     <b>Confirm Password</b><br>
@@ -92,18 +96,11 @@
                                 </div>
                             </div>
 
-
                             <div class="col-md-6">
                                 <div class="tips">
                                     <div class="tips-sm">
                                         <div class="tips tips-sm">
-                                            <strong>Tips for a good password</strong>
-                                            <br>
-                                            "Use both upper and lowercase characters"
-                                            <br>
-                                            "Include at least one symbol (# $ ! % & etc...)"
-                                            <br>
-                                            "Don't use dictionary words"
+                                            <button class="btn btn-primary" id="btn">GENERATE</button>
                                         </div>
                                     </div>
                                 </div>

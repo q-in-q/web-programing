@@ -9,7 +9,7 @@ include("jumbotron.php");
                     <ul>
                         <a href="about.php"><li>Company</li></a>
                         <a href="our-team.php"><li class="tab-click">Our Team</li></a>
-                        <a href="#"><li>Download</li></a>
+                        <a href="download.php"><li>Download</li></a>
                     </ul>
                 </nav>
             </div>
@@ -155,10 +155,52 @@ include("jumbotron.php");
                     <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
                         <div class="row card-part">
                             <div class="col-md-12 col-sm-12 col-xs-12 card-title">
-                                <h4>SEO Analis</h4>
+                                <h4>QA Engineer</h4>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12 card-description">
-                                <p>Jakarta | Jogja
+                                <p>Surabaya | Malang
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                                <a href="#" class="btn btn-info">APPLY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                                <h4>Senior Project Manager</h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                                <p>Jakarta Selatan | DKI Jakarta
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                                <a href="#" class="btn btn-info">APPLY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                                <h4>IT Help Desk Manager</h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                                <p>Jakarta | Semarang
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                                <a href="#" class="btn btn-info">APPLY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                                <h4>Software Enfineer</h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                                <p>Jogja | Jogja
                                 </p>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
