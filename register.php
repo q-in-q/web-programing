@@ -12,6 +12,7 @@
 
     <script src="assets/js/jquery.passwordGenerator.js" type="text/javascript"></script>
     <script src="assets/js/jquery.passwordGenerator.min.js" type="text/javascript"></script>
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
 </head>
 
 <body>
