@@ -1354,3 +1354,49 @@ select {
     height: 350px;
     width: 100%;
 }
+
+
+/* AUTO GENERATE */
+input[type="password"] {
+    background: transparent;
+    border: 1px solid #887AFF;
+    border-radius: 3px;
+    color: #007bff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    outline: none;
+    padding: 1rem;
+    transition: all 0.2s;
+    width: 100%;
+}
+
+input[type="password"]:hover,
+input[type="password"]:focus {
+    border-color: #BFB7FF;
+}
+
+.jq-password-validator__popover {
+    background: #007bff;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #4E44A6;
+    padding: 1.5rem;
+    transition: all 0.2s;
+}
+
+.jq-password-validator__popover header {
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+em {
+    border-bottom: 1px dotted;
+    font-style: normal;
+}
+
+.is-valid {
+    color: #4E44A6;
+}
+.jq-password-validator__checkmark {
+    fill: #44A64D;
+}
