@@ -23,7 +23,7 @@ include("jumbotron.php");
             </div>
             <div class="col">
                 <div class="judul">
-                    <h3>PT MITRA TECHNOLOGY</h3>
+                    <img src="assets/img/profile.jpg" alt="" srcset="" class="img-about">
                 </div>
             </div>
         </div>
