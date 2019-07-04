@@ -41,7 +41,7 @@ include("jumbotron-FAQ.php");
             </table>
         </div>
         <div class="col">
-            <img class="img-promo" src="./assets/img/consultant.jpg" alt="">
+            <img class="img-promo" src="./assets/img/consultant.jpg" alt="" style="height: 350px; pading-top= 15px;">
         </div>
     </div>
 </div>
