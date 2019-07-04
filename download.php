@@ -28,7 +28,7 @@ include("jumbotron.php");
                         </div>
                         <div class="row">
                             <div class="col">
-                            <button class="btn-grad btn-grad-2">DOWNLOAD <i class="fas fa-cart-arrow-down"></i></button>
+                            <button class="btn-grad btn-grad-2"> <a href="./assets/img/Client-Getting-Strategies-Ebook-Thumb.png" download>DOWNLOAD <i class="fas fa-cart-arrow-down"></i></a> </button>
                             </div>
                             <div class="col">
                             <button class="btn-grad btn-grad-3"><i class="fas fa-hand-holding-usd"></i> DONATE</button>

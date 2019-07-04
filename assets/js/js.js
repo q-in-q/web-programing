@@ -175,7 +175,7 @@ var myApp = {
       //-- Simulate a slow-loading site through a 2 second delay
       window.setTimeout(function() {
         $.ajax({
-          url: '../promo-detail.php',
+          url: './promo-detail.php',
           async: true,
           error: function (jqXHR, textStatus, errorThrown) {
             myApp.loading(false);
