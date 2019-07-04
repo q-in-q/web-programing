@@ -15,15 +15,17 @@ include("jumbotron-promo-detail.php");
         <div class="col">
         </div>
     </div>
-        <p>IDcloudhost merupakan salah satu REGISTRAR Resmi dari PANDI untuk Domain Indonesia. Oleh karena itu kami senantiasa akan terus memberikan kepercayaan kepada Anda untuk memberikan layanan Domain Indonesia dengan harga yang terjangkau dan Proses yang sangat mudah untuk bisa mengamankan Brand Domain Indonesia Anda. Yuk Cinta domain Indonesia mulai saat ini, Kita memberikan penawaran Promo Domain ID Super murah Se-Indonesia Beli dan Transfer dengan Harga Rp 107.000 untuk setahun!.</p>
+        <p>PT Mitra Technology merupakan salah satu REGISTRAR Resmi dari PANDI untuk Consultan IT Indonesia. Oleh karena itu kami senantiasa akan terus memberikan kepercayaan kepada Anda untuk memberikan Pelayanan untuk Indonesia dengan harga yang terjangkau dan Proses yang sangat mudah untuk bisa mengamankan Brand Lokal Indonesia maupun Internasional untuk Bisnis Anda. Yuk Cinta Karya Indonesia mulai saat ini, Kita memberikan penawaran Promo penambahan 1 Bulan Pelayanan Kami yang Super murah Se-Indonesia mari mulai bergabung bersama kami dan Dapatkan Promo yang terbaik dari Kami.</p>
 
         <p>Lihat syarat dan ketentuan Promo <span> <a href="syarat-ketentuan-diskon.php">di sini</a> </span> </p>
+
         
         <div id="loading-overlay">
-            <p>Please wait</p>
         </div>
         <div id="container">
-            <button class="btn-grad btn-grad-1" ><i class="fas fa-check"></i> APPLY NOW</button>
+            <p>Klik Apply to Copy Code</p>
+            <input type="text" id="code-promo-1" value="CONJULY1PLUS" disabled>
+            <button class="btn-grad btn-grad-1" onclick="myFunction()"><i class="fas fa-check"></i> APPLY NOW</button>
             <button id="slow-load" class="btn-grad btn-grad-4" ><i class="fas fa-sync-alt"></i> RELOAD PAGE</button>
         </div>
     </div>
@@ -37,7 +39,7 @@ include("jumbotron-promo-detail.php");
                         <img class="card-img-top img-responsive" src="./assets/img/conjuly3plus.jpg" alt="Card image cap">
                         <div class="text-view">
                             <ul>
-                                <a href="#"><p>Selanjutnya</p></a>
+                                <a href="#"><button id="slow-load" class="btn-grad btn-grad-3" >Selanjutnya <i class="fas fa-arrow-circle-right"></i></button></a>
                             </ul>
                         </div>
                     </div>
@@ -47,7 +49,7 @@ include("jumbotron-promo-detail.php");
                         <img class="card-img-top img-responsive" src="./assets/img/conjuly3plus.jpg" alt="Card image cap">
                         <div class="text-view">
                             <ul>
-                                <a href="#"><p>Selanjutnya</p></a>
+                            <a href="#"><button id="slow-load" class="btn-grad btn-grad-3" >Selanjutnya <i class="fas fa-arrow-circle-right"></i></button></a>
                             </ul>
                         </div>
                     </div>
@@ -57,7 +59,7 @@ include("jumbotron-promo-detail.php");
                         <img class="card-img-top img-responsive" src="./assets/img/conjuly6plus.jpg" alt="Card image cap">
                         <div class="text-view">
                             <ul>
-                                <a href="#"><p>Selanjutnya</p></a>
+                            <a href="#"><button id="slow-load" class="btn-grad btn-grad-3" >Selanjutnya <i class="fas fa-arrow-circle-right"></i></button></a>
                             </ul>
                         </div>
                     </div>

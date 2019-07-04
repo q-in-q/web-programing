@@ -90,34 +90,34 @@ include("jumbotron-main.php");
         <section class="fullwidth-layout">
             <div class="galeri-all">
                 <div class="galeri">
-                    <img src="https://bit.ly/2PvlS8Z" alt="">
-                    <span class="galeri-judul">Lorem ipsum dolor</span>
-                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                    <img src="./assets/img/friendly-and-professional-it-support-2.jpg" alt="">
+                    <span class="galeri-judul">Profesional IT Support</span>
+                    <span class="galeri-teks">Kami memberikan pelayanan secara profesional dan menguji kemampuan karyawan sesuai dengan standar operasi kami.</span>
                 </div>
                 <div class="galeri">
-                    <img src="https://bit.ly/2PXNumM" alt="">
-                    <span class="galeri-judul">Lorem ipsum dolor</span>
-                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                    <img src="./assets/img/How-an-IT-Consultant-Can-Help-Your-Business (1).jpg" alt="">
+                    <span class="galeri-judul">Bagaimana Kami Membantu Anda</span>
+                    <span class="galeri-teks">Banyak bisnis yang sudah melihat manfaat penghematan logika dan uang dari melibatkan Konsultan TI untuk membuat dan memelihara sistem yang khusus untuk model bisnis mereka.</span>
                 </div>
                 <div class="galeri">
-                    <img src="https://bit.ly/2KbUszm" alt="">
-                    <span class="galeri-judul">Lorem ipsum dolor</span>
-                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                    <img src="./assets/img/dkz_7737_2349_01.jpg" alt="">
+                    <span class="galeri-judul">Konsultasi Teknis</span>
+                    <span class="galeri-teks">Kami menemani proyek sampai selesai dan terus melayani pelanggan setelahnya.</span>
                 </div>
                 <div class="galeri">
-                    <img src="https://bit.ly/2FnhYul" alt="">
-                    <span class="galeri-judul">Lorem ipsum dolor</span>
-                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                    <img src="./assets/img/software-consultant.jpg" alt="">
+                    <span class="galeri-judul">Software Original</span>
+                    <span class="galeri-teks">Kami menggunakan Aplikasi ter update dan lisensi Asli dari produk mereka.</span>
                 </div>
                 <div class="galeri">
-                    <img src="https://bit.ly/2FznWrU" alt="">
-                    <span class="galeri-judul">Lorem ipsum dolor</span>
-                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                    <img src="./assets/img/job-interview.jpg" alt="">
+                    <span class="galeri-judul">Kesepakatan Awal</span>
+                    <span class="galeri-teks">Kami menggunakan kesepakatan di awal dan tetap memaksimalkan pelayanan kami</span>
                 </div>
                 <div class="galeri">
-                    <img src="https://bit.ly/2zd3HLf" alt="">
-                    <span class="galeri-judul">Lorem ipsum dolor</span>
-                    <span class="galeri-teks">Morbi diam viverra mattis sociis magna, habitasse penatibus non lectus</span>
+                    <img src="./assets/img/placeholder_eSearcher_eng-1.jpg" alt="">
+                    <span class="galeri-judul">UI / UX</span>
+                    <span class="galeri-teks">Kami memaksimalkan tampilan yang nyaman bagi user atau pengguna akhir.</span>
                 </div>
             </div>
         </section>

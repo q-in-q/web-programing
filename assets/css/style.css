@@ -92,6 +92,11 @@ a.nav-link:hover {
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
+.btn-grad-5 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
 button.btn.btn-primary, button.btn.btn-primary.btn-login {
     padding: 5px 20px;
     background-color: #00a6ff;
@@ -408,7 +413,7 @@ button.btn-grad-2 a:hover {
 }
 
 .galeri:hover span{
-    color:white;
+    color:#000;
     display: block;
     transition-duration: .3s;
 }
@@ -433,7 +438,6 @@ button.btn-grad-2 a:hover {
     transform: translate(-50%, -50%);
     font-weight: bold;
     font-size: 1.6em;
-    text-shadow: 1px 5px 10px black;
     transition-duration: .3s;
 }
 
@@ -444,7 +448,6 @@ button.btn-grad-2 a:hover {
     max-width: 80%;
     text-align:center;
     left: 50%;
-    text-shadow: 1px 5px 10px black;
     font-size: 1em;
     display:none;
     margin-right: -50%;

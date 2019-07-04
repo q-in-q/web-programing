@@ -190,7 +190,17 @@ var myApp = {
     });
   });
   
-//PASSWORD
+//COPY TO CLIPBOARD
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("code-promo-1");
 
+  /* Select the text field */
+  copyText.select();
 
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
 
+  /* Alert the copied text */
+  alert("Code Success: " + copyText.value);
+}
